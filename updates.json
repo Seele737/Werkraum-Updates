@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "keyId": "werkraum-2026-1",
+  "generatedAt": "2026-10-03T06:51:37.183Z",
+  "updates": [
+    {
+      "version": "0.14.0",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v0.14.0/Werkraum-Update-0.14.0.wrup",
+      "size": 112309733,
+      "sha256": "f8a09e62ae110d138f144d42067166c7ad107acfc7f9d3efe603d3e739062ee9"
+    },
+    {
+      "version": "0.14.0",
+      "platform": "darwin",
+      "arch": "arm64",
+      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v0.14.0/Werkraum-Update-0.14.0-mac-arm64.wrup",
+      "size": 1716783,
+      "sha256": "6ec3c83e3cf1c53c1fce506a04885990d8b74556e29dd3879b9686e3aaff0c59"
+    },
+    {
+      "version": "0.14.0",
+      "platform": "darwin",
+      "arch": "x64",
+      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v0.14.0/Werkraum-Update-0.14.0-mac-x64.wrup",
+      "size": 1716781,
+      "sha256": "edd8922da59803ae402758090bffe1d91381fad22cf23546937504d26f07655f"
+    }
+  ],
+  "signature": "je2O0rnh79DTdymcl1viFubhZT579WqMHDtT5baGFTZ4SF8560t7LG/m3k12xXIB82zqczQ3zXeRpl6lliL5Aw=="
+}
+
