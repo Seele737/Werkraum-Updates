@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fb5a3"/><stop offset="0.6" stop-color="#1f8a7a"/><stop offset="1" stop-color="#136355"/></linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.1" r="0.7"><stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2" fill="#ffffff" fill-opacity="0.13"/></pattern>
+    <filter id="card" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="16" stdDeviation="17" flood-color="#062a24" flood-opacity="0.34"/></filter>
+    <filter id="lift" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#062a24" flood-opacity="0.32"/></filter>
+  </defs>
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <rect width="1200" height="420" fill="url(#glow)"/>
+  <circle cx="1090" cy="-30" r="230" fill="#ffffff" fill-opacity="0.07"/>
+  <circle cx="110" cy="480" r="270" fill="#000000" fill-opacity="0.07"/>
+  <circle cx="190" cy="92" r="46" fill="#ffffff" fill-opacity="0.08"/>
+  <g filter="url(#card)"><rect x="236" y="78" width="440" height="264" rx="26" fill="#fffdf8"/></g>
+      <rect x="262" y="104" width="160" height="16" rx="8" fill="#cfece7"/><rect x="262" y="130" width="96" height="11" rx="5.5" fill="#eaf7f5"/>
+      <path d="M262 176 H650" stroke="#eaf7f5" stroke-width="3"/><path d="M262 216 H650" stroke="#eaf7f5" stroke-width="3"/><path d="M262 256 H650" stroke="#eaf7f5" stroke-width="3"/><path d="M262 296 H650" stroke="#eaf7f5" stroke-width="3"/>
+      <path d="M270 200 L320 188 L370 214 L420 204 L470 246 L520 232 L570 286 L640 270" fill="none" stroke="#1f8a7a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="570" cy="286" r="14" fill="#f3c453" stroke="#0f4f44" stroke-width="5"/>
+    <g filter="url(#lift)"><circle cx="716" cy="136" r="38" fill="#f3c453"/></g><path d="M716 120 V152 M703.2 139.2 L716 152 L728.8 139.2" fill="none" stroke="#0f4f44" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <g filter="url(#card)"><rect x="740" y="196" width="230" height="150" rx="26" fill="#fffdf8"/></g>
+      <rect x="760" y="216" width="60" height="60" rx="14" fill="#1f8a7a"/><rect x="836" y="222" width="110" height="14" rx="7" fill="#cfece7"/><rect x="836" y="246" width="74" height="11" rx="5.5" fill="#eaf7f5"/>
+      <rect x="760" y="294" width="110" height="34" rx="17" fill="#f3c453"/><rect x="776" y="305" width="78" height="12" rx="6" fill="#0f4f44"/>
+</svg>

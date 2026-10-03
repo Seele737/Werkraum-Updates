@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="face" x1="0.12" y1="0.04" x2="0.88" y2="1"><stop offset="0" stop-color="#8f7ad6"/><stop offset="0.55" stop-color="#6750ab"/><stop offset="1" stop-color="#45347f"/></linearGradient>
+    <radialGradient id="light" cx="0.28" cy="0.14" r="0.9"><stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/><stop offset="0.6" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#1b1336" flood-opacity="0.34"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#face)"/>
+  <rect width="512" height="512" rx="116" fill="url(#light)"/>
+  <rect x="1.5" y="1.5" width="509" height="509" rx="114.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="3"/>
+  <g filter="url(#soft)"><path d="M230 118 Q248 250 380 268 Q248 286 230 418 Q212 286 80 268 Q212 250 230 118 Z" fill="#fffdf8"/><path d="M378 80 Q385.44 134.56 440 142 Q385.44 149.44 378 204 Q370.56 149.44 316 142 Q370.56 134.56 378 80 Z" fill="#f3c453"/><circle cx="388" cy="372" r="18" fill="#fffdf8"/></g>
+</svg>

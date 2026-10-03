@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="face" x1="0.12" y1="0.04" x2="0.88" y2="1"><stop offset="0" stop-color="#e35a46"/><stop offset="0.55" stop-color="#c0392b"/><stop offset="1" stop-color="#8c2217"/></linearGradient>
+    <radialGradient id="light" cx="0.28" cy="0.14" r="0.9"><stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/><stop offset="0.6" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#3d0c06" flood-opacity="0.34"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#face)"/>
+  <rect width="512" height="512" rx="116" fill="url(#light)"/>
+  <rect x="1.5" y="1.5" width="509" height="509" rx="114.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="3"/>
+  <g filter="url(#soft)"><rect x="100" y="118" width="312" height="214" rx="54" fill="#fffdf8"/>
+    <path d="M226 176 L226 274 L306 225 Z" fill="#c0392b" stroke="#c0392b" stroke-width="18" stroke-linejoin="round"/>
+    <circle cx="362" cy="360" r="82" fill="#c0392b"/><circle cx="362" cy="360" r="70" fill="#f3c453"/><path d="M362 330 V390 M338 366 L362 390 L386 366" fill="none" stroke="#7a1c12" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

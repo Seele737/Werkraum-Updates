@@ -1,0 +1,1740 @@
+{
+  "format": 1,
+  "keyId": "werkraum-2026-1",
+  "generatedAt": "2026-10-03T04:55:56.599Z",
+  "packages": [
+    {
+      "id": "feeds",
+      "version": "1.0.0",
+      "file": "packages/feeds-1.0.0.wrx",
+      "size": 23758,
+      "sha256": "e9857548cf67ea7af60d8a087216b3db0c3d15b9c3ec61e51d047702c84e3c82",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "feeds",
+        "kind": "extension",
+        "name": "Podcasts & Nachrichten",
+        "version": "1.0.0",
+        "publisher": "Werkraum",
+        "summary": "Nachrichtenseiten, Blogs und Podcasts über ihren Feed abonnieren: Neues landet von selbst im Projekt, zum Lesen, Anhören und Zusammenfassen.",
+        "description": "Füge die Adresse eines Feeds, eines Podcasts oder einfach einer Webseite ein, und Werkraum abonniert ihn im Projekt. Einmal in der Stunde sieht Werkraum von selbst nach Neuem, zeigt es als Liste mit Zusammenfassung und meldet es über die Glocke. Podcast-Folgen hörst du direkt an; ein kleiner Player läuft weiter, während du im Projekt arbeitest. Der Video- & Audio-Downloader holt eine Folge auf Wunsch als Datei ins Projekt. Einträge lassen sich als Notiz ablegen, einzeln oder für ein Abo von selbst, und dann mit „Abläufe“ von der KI zusammenfassen. Gelesenes und Ungelesenes merkt sich das Projekt, die Einträge erscheinen in der Suche über alle Projekte.",
+        "category": "medien",
+        "tone": "subscriptions",
+        "glyph": "rss",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Feeds (RSS, Atom) und Podcasts abonnieren, auch über die Adresse der Webseite",
+          "Neues von selbst einmal in der Stunde, mit Meldung über die Glocke",
+          "Podcast-Folgen anhören, der Player läuft beim Arbeiten weiter",
+          "Folgen mit dem Video- & Audio-Downloader als Datei ins Projekt holen",
+          "Einträge als Notiz ablegen und mit „Abläufe“ zusammenfassen lassen",
+          "Gelesen und ungelesen, Filter je Abo, Einträge in der Suche über alle Projekte"
+        ],
+        "permissions": [
+          {
+            "icon": "globe",
+            "text": "Ruft die Feeds ab, die du abonnierst: beim Abonnieren, bei „Aktualisieren“ und, wenn eingeschaltet, einmal in der Stunde von selbst"
+          },
+          {
+            "icon": "play",
+            "text": "Spielt Podcast-Folgen direkt von der Adresse ab, die der Feed nennt"
+          },
+          {
+            "icon": "bell",
+            "text": "Meldet neue Einträge mit einer Benachrichtigung, wenn eingeschaltet"
+          },
+          {
+            "icon": "files",
+            "text": "Speichert Abos, die neuesten Einträge und was gelesen ist im Projekt; legt auf Wunsch Notizen an"
+          }
+        ],
+        "requirements": [
+          "Braucht Werkraum 0.11 oder neuer",
+          "Internetverbindung",
+          "Neues kommt von selbst, solange Werkraum geöffnet ist",
+          "Zum Herunterladen von Folgen: Video- & Audio-Downloader aus dem Store"
+        ],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Teil von Werkraum",
+        "sourceUrl": "",
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "date": "2026-10-02",
+            "notes": [
+              "Erste Version: Feeds und Podcasts abonnieren, Neues von selbst",
+              "Folgen anhören oder an den Video- & Audio-Downloader geben",
+              "Einträge als Notiz, auch von selbst je Abo"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "feeds",
+            "label": "Neues",
+            "glyph": "rss"
+          }
+        ],
+        "minAppVersion": "0.11.0",
+        "routes": [
+          "feeds"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/feeds/icon.svg",
+          "size": 1598,
+          "sha256": "d8748457c88acae18bb9d7880805a1d07694db78d926c0db13cfe5be7f584bfc"
+        },
+        "banner": {
+          "file": "assets/feeds/banner.svg",
+          "size": 3655,
+          "sha256": "c690b66af0b802c2403c3fcf28f855c05dac9b6809a0fdbfa1ffd124d1ecfcf1"
+        }
+      }
+    },
+    {
+      "id": "local-offers",
+      "version": "1.4.0",
+      "file": "packages/local-offers-1.4.0.wrx",
+      "size": 31313,
+      "sha256": "75a54ea20bc13cbb6bd0b49918819201392c5b15b34c83e6b451d06e54654ff9",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "local-offers",
+        "kind": "extension",
+        "name": "Angebote & Preise",
+        "version": "1.4.0",
+        "publisher": "Werkraum",
+        "summary": "Supermarkt-Angebote an deinem Ort, Online-Preise wie bei idealo und ein Preiswecker für deine Wunschpreise.",
+        "description": "Gib deinen Ort oder deine Postleitzahl und ein Produkt ein, und Werkraum zeigt die aktuellen Angebote der Supermärkte in deiner Nähe mit Bild, Preis, Grundpreis und Gültigkeit, auch für kleine Orte und freie Begriffe. Wähle deine Märkte, sortiere nach Preis, Grundpreis oder Rabatt und sieh auf einen Blick das günstigste Angebot. Unter „Online-Preise“ vergleichst du wie bei idealo, wo ein Produkt online am günstigsten ist. Mit der Einkaufsliste prüfst du alles auf einmal; der Preiswecker prüft sie zweimal am Tag von selbst und meldet sich, sobald ein Wunschpreis erreicht ist.",
+        "category": "alltag",
+        "tone": "offers",
+        "glyph": "cart",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Angebote an deinem Ort, auch per Postleitzahl, in kleinen Orten und für freie Begriffe",
+          "Online-Preise wie bei idealo: günstigster Preis, Zahl der Shops und Bewertung",
+          "Preiswecker: meldet sich von selbst, sobald ein Wunschpreis erreicht ist",
+          "Märkte auswählen und als deine Märkte merken",
+          "Preisvergleich mit Grundpreis pro kg, l oder Stück",
+          "Einkaufsliste mit Wunschpreis auf einmal prüfen",
+          "Umkreis bis 50 km, doppelte Angebote zusammengefasst"
+        ],
+        "permissions": [
+          {
+            "icon": "globe",
+            "text": "Sendet deinen Ort (als Koordinaten) und Suchbegriffe an kaufDA, um die Angebote der Märkte in deiner Nähe abzurufen; mit Preiswecker zweimal am Tag von selbst"
+          },
+          {
+            "icon": "map",
+            "text": "Schlägt den eingegebenen Ort oder die Postleitzahl einmal bei OpenStreetMap (Nominatim) nach"
+          },
+          {
+            "icon": "globe",
+            "text": "Sendet Suchbegriffe für Online-Preise an idealo.de"
+          },
+          {
+            "icon": "media",
+            "text": "Lädt Produktbilder von den Bildservern von kaufDA und idealo"
+          },
+          {
+            "icon": "bell",
+            "text": "Meldet sich mit einer Benachrichtigung, wenn ein Wunschpreis erreicht ist"
+          },
+          {
+            "icon": "files",
+            "text": "Speichert gemerkte Angebote, Einkaufsliste, Ort und deine Märkte im Projekt"
+          }
+        ],
+        "requirements": [
+          "Deutschland",
+          "Braucht Werkraum 0.7 oder neuer",
+          "Der Preiswecker arbeitet, solange Werkraum geöffnet ist",
+          "Online-Preise: günstigster gelisteter Preis ohne Versand, Details bei idealo"
+        ],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Werkraum · Daten: kaufDA, idealo, © OpenStreetMap-Mitwirkende (ODbL)",
+        "sourceUrl": "https://www.kaufda.de/",
+        "changelog": [
+          {
+            "version": "1.4.0",
+            "date": "2026-09-29",
+            "notes": [
+              "Gemerkte Angebote und die Einkaufsliste erscheinen in der Suche über alle Projekte (Strg + K, ab Werkraum 0.9)."
+            ]
+          },
+          {
+            "version": "1.3.0",
+            "date": "2026-09-29",
+            "notes": [
+              "Suche repariert: Postleitzahlen, kleine Orte und freie Begriffe wie „Hafermilch Barista“ finden jetzt Angebote",
+              "Bei Orten mit gleichem Namen fragt Werkraum, welcher gemeint ist",
+              "Neuer Reiter „Online-Preise“: vergleichen wie bei idealo, Produkte merken",
+              "Verständliche Meldungen statt „HTTP 404“; alte Ergebnisse verschwinden bei einem Fehler"
+            ]
+          },
+          {
+            "version": "1.2.0",
+            "date": "2026-09-28",
+            "notes": [
+              "Preiswecker: prüft die Einkaufsliste auf Wunsch zweimal am Tag und meldet erreichte Wunschpreise",
+              "Jeder Treffer wird nur einmal gemeldet; das Ergebnis steht danach in der Einkaufsliste",
+              "Benachrichtigung unter der Glocke und als Mitteilung von Windows oder macOS"
+            ]
+          },
+          {
+            "version": "1.1.1",
+            "date": "2026-09-28",
+            "notes": [
+              "Jetzt ein eigenständiges, signiertes Paket aus dem Werkraum Store",
+              "Eigenes Symbol und Titelbild"
+            ]
+          },
+          {
+            "version": "1.1.0",
+            "date": "2026-09-28",
+            "notes": [
+              "Märkte auswählen und merken",
+              "Preisvergleich mit Grundpreis, Rabatt und regulärem Preis, dazu Produktbilder",
+              "Einkaufsliste mit Wunschpreis, alles auf einmal prüfen",
+              "Gleiche Angebote aus mehreren Prospekten erscheinen nur noch einmal",
+              "Ort und Umkreis werden pro Projekt gemerkt; gemerkte Angebote lassen sich entfernen"
+            ]
+          },
+          {
+            "version": "1.0.0",
+            "date": "2026-09-27",
+            "notes": [
+              "Erste Version mit Suche, Umkreis und Merkliste"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "local-offers",
+            "label": "Angebote",
+            "glyph": "cart"
+          }
+        ],
+        "minAppVersion": "0.7.0",
+        "routes": [
+          "offers"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/local-offers/icon.svg",
+          "size": 2004,
+          "sha256": "7e27a778647b7ebf86c14eb22fb19910fd79c44c696547eee750bb18a778a6ce"
+        },
+        "banner": {
+          "file": "assets/local-offers/banner.svg",
+          "size": 4108,
+          "sha256": "76e2c886e9c88c6423ac764c42eecb90050a5264835a6af676d13b593a3dbcfc"
+        }
+      }
+    },
+    {
+      "id": "nas-folders",
+      "version": "1.0.0",
+      "file": "packages/nas-folders-1.0.0.wrx",
+      "size": 10346,
+      "sha256": "643bf404d01913b4890ef21cfca27f467c9974b8f6c044d98e605ef5a02a4c46",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "nas-folders",
+        "kind": "extension",
+        "name": "Synology & NAS-Ordner",
+        "version": "1.0.0",
+        "publisher": "Werkraum",
+        "summary": "Bereits eingebundene NAS-Ordner durchsehen, ausgewählte Dateien ins Projekt holen und Projektdateien auf dem NAS speichern.",
+        "description": "NAS zuerst im Finder oder Explorer als Netzwerkordner verbinden. Freigabe je Projekt und Rechner, standardmäßig schreibgeschützt. Schreiben muss ausdrücklich erlaubt werden; vorhandene Dateien werden niemals überschrieben. Durchsehen erzeugt keine Kopien, Dateien ins Projekt holen und auf das NAS speichern sind bewusste Aktionen. Keine automatische Synchronisation oder direkte Synology-Anmeldung. Verbindungen werden im geschützten Profil des Rechners gespeichert; ohne Schlüsselspeicher bleiben sie nur bis zum Beenden.",
+        "category": "verknuepfungen",
+        "tone": "link",
+        "glyph": "files",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Ordner ansehen, ohne Dateien zu kopieren",
+          "Freigabe nur für dieses Projekt und diesen Rechner",
+          "Dateien kopieren, vorhandene niemals überschreiben"
+        ],
+        "permissions": [
+          {
+            "icon": "files",
+            "text": "Liest nur den ausdrücklich verbundenen Ordner. Importiert ausgewählte Dateien. Schreibt nur nach Freigabe, ohne bestehende Dateien zu überschreiben."
+          }
+        ],
+        "requirements": [
+          "Werkraum 0.14 oder neuer",
+          "NAS-Ordner im Finder oder Explorer eingebunden"
+        ],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Teil von Werkraum",
+        "sourceUrl": "",
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "date": "2026-10-03",
+            "notes": [
+              "Erste geprüfte Version als separates signiertes Paket"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "nas-folders",
+            "label": "Synology & NAS-Ordner",
+            "glyph": "files"
+          }
+        ],
+        "minAppVersion": "0.14.0",
+        "routes": [
+          "nas-folders"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/nas-folders/icon.svg",
+          "size": 293,
+          "sha256": "ab2a9fe5436954909cea84f48e0471751a9d8d4f4b9d1bef1f5d453ecb27e93e"
+        },
+        "banner": {
+          "file": "assets/nas-folders/banner.svg",
+          "size": 295,
+          "sha256": "ef29d3b7b4e4e15ecf8976cd56ee80a22d4788444c0653d6efff690f3899642d"
+        }
+      }
+    },
+    {
+      "id": "parcels",
+      "version": "1.0.0",
+      "file": "packages/parcels-1.0.0.wrx",
+      "size": 23646,
+      "sha256": "fccbce59fed0f6299017a36a3457d826830cca2d7a6fabc6e686fd245a4813e1",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "parcels",
+        "kind": "extension",
+        "name": "Paketverfolgung",
+        "version": "1.0.0",
+        "publisher": "Werkraum",
+        "summary": "Alle Sendungen an einem Ort: Für DHL und Hermes kommt der Status von selbst, mit Meldung, wenn ein Paket in Zustellung geht oder ankommt.",
+        "description": "Trage die Sendungsnummern deiner Bestellungen ein, und Werkraum zeigt alle Pakete in einer Liste. Für DHL und Hermes holt Werkraum den Status einmal in der Stunde von selbst: wo das Paket ist, den bisherigen Verlauf und, wenn der Dienst es nennt, das Zeitfenster der Zustellung. Über die Glocke erfährst du, wenn ein Paket unterwegs ist, in Zustellung geht, abholbereit ist oder angekommen ist. DPD, GLS, UPS, Deutsche Post und Amazon lassen Programme den Status nicht abfragen; ihre Sendungen stehen trotzdem in der Liste, mit einem Klick zur Verfolgungsseite im Browser und einem Haken für „Angekommen“. Den Paketdienst erkennt Werkraum meist an der Nummer. Die Sendungen liegen im Projekt, der Status verbraucht keine Sicherungsstände.",
+        "category": "alltag",
+        "tone": "notes",
+        "glyph": "package",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Alle Sendungen in einer Liste, mit Namen wie „Kopfhörer“ statt nur Nummern",
+          "DHL und Hermes: Status, Verlauf und Zeitfenster der Zustellung von selbst",
+          "Meldung über die Glocke: unterwegs, in Zustellung, abholbereit, angekommen",
+          "DPD, GLS, UPS, Deutsche Post, Amazon: ein Klick zur Verfolgungsseite",
+          "Der Paketdienst wird meist an der Nummer erkannt",
+          "Angekommenes abhaken und erledigte Sendungen auf einmal entfernen"
+        ],
+        "permissions": [
+          {
+            "icon": "globe",
+            "text": "Fragt den Status deiner Sendungen bei DHL und Hermes ab: beim Hinzufügen, bei „Aktualisieren“ und, wenn eingeschaltet, einmal in der Stunde von selbst. Die Sendungsnummer geht nur an den Paketdienst"
+          },
+          {
+            "icon": "bell",
+            "text": "Meldet Änderungen am Status mit einer Benachrichtigung, wenn eingeschaltet"
+          },
+          {
+            "icon": "files",
+            "text": "Speichert die Sendungen mit ihrem letzten Status im Projekt"
+          }
+        ],
+        "requirements": [
+          "Braucht Werkraum 0.11 oder neuer",
+          "Internetverbindung",
+          "Der Status kommt von selbst, solange Werkraum geöffnet ist",
+          "Automatischer Status nur für DHL und Hermes; andere Dienste wehren Programme ab"
+        ],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Teil von Werkraum",
+        "sourceUrl": "",
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "date": "2026-10-02",
+            "notes": [
+              "Erste Version: Sendungen eintragen, Status für DHL und Hermes von selbst",
+              "Meldungen bei Zustellung, Abholung und Problemen",
+              "Andere Paketdienste mit Link zur Verfolgungsseite"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "parcels",
+            "label": "Pakete",
+            "glyph": "package"
+          }
+        ],
+        "minAppVersion": "0.11.0",
+        "routes": [
+          "parcels"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/parcels/icon.svg",
+          "size": 1688,
+          "sha256": "11cf6a91f28b5b7f65f38b019527461256326b7ac9ae76a2cc5d7c5373c9b1e9"
+        },
+        "banner": {
+          "file": "assets/parcels/banner.svg",
+          "size": 3459,
+          "sha256": "62ae8140de3260fdef936fa3168189abe7f80f23a16d1610d9beac250a4830ac"
+        }
+      }
+    },
+    {
+      "id": "price-history",
+      "version": "1.0.1",
+      "file": "packages/price-history-1.0.1.wrx",
+      "size": 27014,
+      "sha256": "a9f9313db803fda39b2c3c6ae89c14dafa3ae07064baa7a7f10aefb52c71b806",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "price-history",
+        "kind": "extension",
+        "name": "Preisverlauf online",
+        "version": "1.0.1",
+        "publisher": "Werkraum",
+        "summary": "Produkte suchen und ihren günstigsten Preis beobachten: mit Preiskurve, Wunschpreis und Meldung, wenn der Preis fällt.",
+        "description": "Suche ein Produkt, und Werkraum zeigt die Treffer des Preisvergleichs idealo.de mit dem günstigsten gelisteten Preis. Mit „Beobachten“ merkt sich das Projekt das Produkt; zweimal am Tag liest Werkraum von selbst den Preis und schreibt den günstigsten Preis jedes Tages in den Verlauf. Eine Kurve zeigt, wie sich der Preis entwickelt, dazu Tiefst-, Höchst- und Durchschnittspreis. Du kannst je Produkt einen Wunschpreis nennen: Werkraum meldet über die Glocke, wenn er erreicht ist, und ebenso einen neuen Tiefstpreis. Statt zu suchen, kannst du auch die Adresse einer Produktseite einfügen; das klappt bei Shops, die ihren Preis für Programme lesbar nennen (zum Beispiel IKEA, Thomann oder Galaxus), nicht bei Amazon. Der Verlauf beginnt mit dem Tag, an dem du ein Produkt beobachtest, und verbraucht keine Sicherungsstände des Projekts.",
+        "category": "alltag",
+        "tone": "offers",
+        "glyph": "chart",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Produkte über den Preisvergleich idealo.de suchen und mit einem Klick beobachten",
+          "Preiskurve je Produkt mit Tiefst-, Höchst- und Durchschnittspreis",
+          "Wunschpreis je Produkt: Meldung über die Glocke, sobald er erreicht ist",
+          "Neuer Tiefstpreis wird von selbst gemeldet",
+          "Auch Produktseiten von Shops, die ihren Preis für Programme lesbar nennen",
+          "Der Verlauf liegt im Projekt und zieht mit Sicherung und Abgleich um"
+        ],
+        "permissions": [
+          {
+            "icon": "globe",
+            "text": "Fragt bei einer Suche idealo.de und liest die Seiten der beobachteten Produkte: beim Hinzufügen, bei „Preise jetzt prüfen“ und, wenn eingeschaltet, zweimal am Tag von selbst"
+          },
+          {
+            "icon": "bell",
+            "text": "Meldet einen neuen Tiefstpreis und den erreichten Wunschpreis mit einer Benachrichtigung, wenn eingeschaltet"
+          },
+          {
+            "icon": "files",
+            "text": "Speichert die beobachteten Produkte, ihren Preisverlauf und die Wunschpreise im Projekt"
+          }
+        ],
+        "requirements": [
+          "Braucht Werkraum 0.11 oder neuer",
+          "Internetverbindung",
+          "Preise kommen von selbst, solange Werkraum geöffnet ist",
+          "Gezeigt wird der günstigste gelistete Preis ohne Versandkosten"
+        ],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Teil von Werkraum",
+        "sourceUrl": "",
+        "changelog": [
+          {
+            "version": "1.0.1",
+            "date": "2026-10-03",
+            "notes": [
+              "Ein Wechsel der Währung verändert weder Verlauf noch Wunschpreis und erzeugt keinen falschen Preisalarm."
+            ]
+          },
+          {
+            "version": "1.0.0",
+            "date": "2026-10-02",
+            "notes": [
+              "Erste Version: Produkte suchen, beobachten und den Preisverlauf als Kurve sehen",
+              "Wunschpreis und Meldung bei neuem Tiefstpreis",
+              "Preise auch von Produktseiten, die sie für Programme lesbar nennen"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "price-history",
+            "label": "Preisverlauf",
+            "glyph": "chart"
+          }
+        ],
+        "minAppVersion": "0.14.0",
+        "routes": [
+          "prices"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/price-history/icon.svg",
+          "size": 1667,
+          "sha256": "3f89db6aa80a5c859d4442da40f80ec3c2767047fb00057ba274c1b4f6a96d3e"
+        },
+        "banner": {
+          "file": "assets/price-history/banner.svg",
+          "size": 2821,
+          "sha256": "e294a634790bcf8df65f2b90e4c698d768d32ac6307a51d2713c7af6e3170618"
+        }
+      }
+    },
+    {
+      "id": "proxmox",
+      "version": "1.0.0",
+      "file": "packages/proxmox-1.0.0.wrx",
+      "size": 27200,
+      "sha256": "c3a396621394a1a5a1214ee164f3d80f5b5d151b31f9ffddb2d81afa55543d68",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "proxmox",
+        "kind": "extension",
+        "name": "Proxmox im Blick",
+        "version": "1.0.0",
+        "publisher": "Werkraum",
+        "summary": "Der Zustand deines Proxmox-Servers auf einen Blick: laufende VMs und Container, Speicher, letzte Sicherungen. Mit Meldung, wenn etwas ausfällt.",
+        "description": "Mit einem Schlüssel, der nur lesen darf, zeigt Werkraum den Zustand deines Proxmox-Servers im Heimnetz: welche virtuellen Maschinen und Container laufen, wie stark Prozessor, Arbeitsspeicher und Speicher belegt sind und wann jeder Gast zuletzt gesichert wurde. Alle fünf Minuten sieht Werkraum von selbst nach und meldet über die Glocke, wenn der Server oder ein Knoten nicht erreichbar ist, eine Maschine stoppt, eine Sicherung fehlschlägt oder ein Speicher voll läuft. Beim Einrichten bestätigst du einmal den Fingerabdruck des Zertifikats; danach geht der Schlüssel nur an genau diesen Server. Das Geheimnis des Schlüssels liegt im Schlüsselspeicher des Betriebssystems (Windows, macOS), nie im Projekt, im Datenordner oder in einem Export. Werkraum schaltet nichts und ändert nichts an deinem Server.",
+        "category": "verknuepfungen",
+        "tone": "link",
+        "glyph": "server",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Virtuelle Maschinen und Container: was läuft, was steht, mit Auslastung",
+          "Speicher mit Belegung, Knoten mit Prozessor und Arbeitsspeicher",
+          "Letzte Sicherung jedes Gastes und die jüngsten Sicherungsläufe",
+          "Meldung über die Glocke, wenn Server, Gast oder Sicherung ausfallen oder ein Speicher voll läuft",
+          "Nur lesen: ein API-Token mit der Rolle PVEAuditor genügt",
+          "Der Schlüssel liegt im Schlüsselspeicher des Betriebssystems und geht nur an das bestätigte Zertifikat"
+        ],
+        "permissions": [
+          {
+            "icon": "globe",
+            "text": "Verbindet sich mit dem Proxmox-Server, den du einträgst, auch im Heimnetz: beim Einrichten, bei „Aktualisieren“ und, wenn eingeschaltet, alle fünf Minuten. Nur lesende Abfragen"
+          },
+          {
+            "icon": "key",
+            "text": "Bewahrt das Geheimnis deines API-Tokens im Schlüsselspeicher des Betriebssystems auf"
+          },
+          {
+            "icon": "bell",
+            "text": "Meldet Ausfälle mit einer Benachrichtigung, wenn eingeschaltet"
+          },
+          {
+            "icon": "files",
+            "text": "Speichert Adresse, Kennung des Tokens und Fingerabdruck des Zertifikats im Datenordner; nichts im Projekt"
+          }
+        ],
+        "requirements": [
+          "Braucht Werkraum 0.11 oder neuer",
+          "Ein Proxmox-VE-Server, der von diesem Rechner aus erreichbar ist",
+          "Ein API-Token mit der Rolle PVEAuditor auf dem Pfad /",
+          "Meldungen kommen, solange Werkraum geöffnet ist"
+        ],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Teil von Werkraum",
+        "sourceUrl": "",
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "date": "2026-10-02",
+            "notes": [
+              "Erste Version: Knoten, virtuelle Maschinen, Container, Speicher und Sicherungen",
+              "Meldungen bei Ausfällen, fehlgeschlagenen Sicherungen und vollen Speichern",
+              "Nur-Lesen-Schlüssel im Schlüsselspeicher des Betriebssystems"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "proxmox",
+            "label": "Proxmox",
+            "glyph": "server"
+          }
+        ],
+        "minAppVersion": "0.11.0",
+        "routes": [
+          "proxmox"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/proxmox/icon.svg",
+          "size": 1828,
+          "sha256": "a13bc7c90a13bd876080eb31c4b170b7179dbb16eac4a1e28d93f5ffaf1e0741"
+        },
+        "banner": {
+          "file": "assets/proxmox/banner.svg",
+          "size": 3365,
+          "sha256": "12418f247e39b6872dc9d2a34fc1d94d2ceea683940c341098d0191cbdfd5c63"
+        }
+      }
+    },
+    {
+      "id": "recipes",
+      "version": "1.0.0",
+      "file": "packages/recipes-1.0.0.wrx",
+      "size": 23770,
+      "sha256": "688e896b684a10b4b9b001acb127de0802e05228e802fbc7eeb87b6b472b1970",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "recipes",
+        "kind": "extension",
+        "name": "Rezepte-Sammler",
+        "version": "1.0.0",
+        "publisher": "Werkraum",
+        "summary": "Rezepte von Webseiten mit Zutaten, Schritten, Zeiten und Bild ins Projekt übernehmen, Portionen umrechnen und fehlende Zutaten auf die Einkaufsliste setzen.",
+        "description": "Füge die Adresse einer Rezeptseite ein, und Werkraum übernimmt das Rezept ohne Werbung und Drumherum: Zutaten, Zubereitung, Zeiten, Portionen und das Bild. Im Projekt rechnest du die Mengen mit einem Klick auf deine Portionen um, hakst an, was dir fehlt, und gibst es an die Einkaufsliste von „Angebote & Preise“ oder legst einen Einkaufszettel in die Notizen. Eigene Rezepte trägst du von Hand ein, eine Zutat je Zeile. Die Rezepte gehören zum Projekt, tauchen in der Suche über alle Projekte auf und bleiben erhalten, auch wenn die Seite verschwindet. Es klappt mit Seiten, die ihre Rezepte für Suchmaschinen beschreiben, zum Beispiel Chefkoch, Essen & Trinken, Lecker, Gute Küche und viele Blogs.",
+        "category": "alltag",
+        "tone": "youtube",
+        "glyph": "pot",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Rezept per Adresse übernehmen: Zutaten, Schritte, Zeiten, Portionen und Bild",
+          "Portionen umrechnen, mit Mengen wie im Kochbuch (½, 1 ½, 1,5 kg)",
+          "Fehlende Zutaten an die Einkaufsliste von „Angebote & Preise“",
+          "Einkaufszettel als Notiz im Projekt",
+          "Eigene Rezepte von Hand eintragen und bearbeiten",
+          "Rezepte erscheinen in der Suche über alle Projekte"
+        ],
+        "permissions": [
+          {
+            "icon": "globe",
+            "text": "Ruft die Rezeptseite ab, deren Adresse du einfügst, und lädt das Bild des Rezepts von dieser Seite"
+          },
+          {
+            "icon": "files",
+            "text": "Speichert Rezepte im Projekt und das Bild als Datei des Projekts"
+          },
+          {
+            "icon": "notes",
+            "text": "Legt auf Wunsch einen Einkaufszettel als Notiz im Projekt an"
+          },
+          {
+            "icon": "cart",
+            "text": "Setzt auf Wunsch Zutaten auf die Einkaufsliste von „Angebote & Preise“, wenn diese Erweiterung im Projekt eingeschaltet ist"
+          }
+        ],
+        "requirements": [
+          "Braucht Werkraum 0.11 oder neuer",
+          "Internetverbindung zum Übernehmen von Rezepten",
+          "Für die Einkaufsliste: „Angebote & Preise“ aus dem Store"
+        ],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Teil von Werkraum",
+        "sourceUrl": "",
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "date": "2026-10-02",
+            "notes": [
+              "Erste Version: Rezepte von Webseiten übernehmen, mit Bild",
+              "Portionen umrechnen, Zutaten an „Angebote & Preise“ oder als Einkaufszettel in die Notizen",
+              "Eigene Rezepte anlegen und bearbeiten"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "recipes",
+            "label": "Rezepte",
+            "glyph": "pot"
+          }
+        ],
+        "minAppVersion": "0.11.0",
+        "routes": [
+          "recipes"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/recipes/icon.svg",
+          "size": 2066,
+          "sha256": "d74588ae54b629b5e3dbb875bfb86e2c30c98d31d06f8be20cc9c5fe32644928"
+        },
+        "banner": {
+          "file": "assets/recipes/banner.svg",
+          "size": 3149,
+          "sha256": "3ab234413ab08f4242a8ab331d19bf58c4f50f054180288b92e6cf350019744b"
+        }
+      }
+    },
+    {
+      "id": "translate",
+      "version": "1.0.2",
+      "file": "packages/translate-1.0.2.wrx",
+      "size": 22363,
+      "sha256": "d6f62a396fb71995922a00d19387301c876f76535c0bf47223c5b791f499305f",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "translate",
+        "kind": "extension",
+        "name": "Übersetzer",
+        "version": "1.0.2",
+        "publisher": "Werkraum",
+        "summary": "Texte, Untertitel und PDFs in andere Sprachen übersetzen: mit der lokalen KI auf diesem Rechner, ohne Internet und ohne Konto.",
+        "description": "Der Übersetzer arbeitet mit der lokalen KI, die in Werkraum eingebaut ist: Nichts verlässt den Rechner. Tippe einen Text ein oder wähle eine Datei des Projekts, such die Zielsprache aus, und Werkraum übersetzt im Hintergrund, Stück für Stück, mit Fortschritt und Abbruch. Untertitel (SRT, VTT) behalten ihre Zeiten: Aus den englischen Untertiteln eines Videos werden deutsche, als neue Datei im Projekt. Textdateien und PDFs mit Text werden zu einer übersetzten Textdatei. Das Ergebnis von eingetipptem Text lässt sich kopieren oder als Notiz ablegen. Dateien eines Projekts liest die KI nur, wenn das Projekt für die KI freigegeben ist. Wie gut und wie schnell übersetzt wird, hängt vom gewählten Modell und vom Rechner ab; kleine Modelle übersetzen Alltagstexte brauchbar, aber nicht fehlerfrei.",
+        "category": "ki",
+        "tone": "assistant",
+        "glyph": "languages",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Übersetzt auf diesem Rechner mit der lokalen KI: ohne Internet, ohne Konto, ohne Kosten",
+          "Untertitel (SRT, VTT) mit unveränderten Zeiten, als neue Datei im Projekt",
+          "Textdateien und PDFs mit Text, auch lange, Stück für Stück",
+          "Eingetippter Text: Ergebnis kopieren oder als Notiz ablegen",
+          "18 Zielsprachen, Fortschritt mit Restzeit, jederzeit abbrechen",
+          "Läuft im Hintergrund weiter und meldet sich, wenn eine lange Übersetzung fertig ist"
+        ],
+        "permissions": [
+          {
+            "icon": "shield",
+            "text": "Gibt Text an die lokale KI auf diesem Rechner; nichts geht ins Internet"
+          },
+          {
+            "icon": "lock",
+            "text": "Liest Dateien eines Projekts nur, wenn das Projekt für die KI freigegeben ist"
+          },
+          {
+            "icon": "files",
+            "text": "Legt übersetzte Dateien als neue Dateien ins Projekt und auf Wunsch eine Notiz an"
+          },
+          {
+            "icon": "bell",
+            "text": "Meldet das Ende einer Übersetzung, die länger gedauert hat"
+          }
+        ],
+        "requirements": [
+          "Braucht Werkraum 0.11 oder neuer als Programm (nicht im Browser)",
+          "Ein Modell der lokalen KI (KI → Lokale KI)",
+          "Auf Rechnern ohne Grafikkarte dauert eine Seite Text einige Minuten"
+        ],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Teil von Werkraum",
+        "sourceUrl": "",
+        "changelog": [
+          {
+            "version": "1.0.2",
+            "date": "2026-10-03",
+            "notes": [
+              "Abbruch beendet jetzt auch die laufende Anfrage an die lokale KI; beim Beenden wird die Bereinigung abgewartet."
+            ]
+          },
+          {
+            "version": "1.0.1",
+            "date": "2026-10-02",
+            "notes": [
+              "Laufende Aktionen mit Fortschritt in der Werkraum-Kopfzeile anzeigen"
+            ]
+          },
+          {
+            "version": "1.0.0",
+            "date": "2026-10-02",
+            "notes": [
+              "Erste Version: Text, Untertitel, Textdateien und PDFs übersetzen",
+              "Mit der lokalen KI auf diesem Rechner, im Hintergrund mit Fortschritt",
+              "Untertitel behalten ihre Zeiten"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "translate",
+            "label": "Übersetzer",
+            "glyph": "languages"
+          }
+        ],
+        "minAppVersion": "0.14.0",
+        "routes": [
+          "translate"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/translate/icon.svg",
+          "size": 1795,
+          "sha256": "a44c3a86e5d21b6d565bd33c119ebf212b908742d59a03964128e998c5cfb242"
+        },
+        "banner": {
+          "file": "assets/translate/banner.svg",
+          "size": 3062,
+          "sha256": "3491c2f23bdefb7c51fe424f2c0deba56e8440592966075c9fb375d5c429a970"
+        }
+      }
+    },
+    {
+      "id": "video-tools",
+      "version": "1.0.0",
+      "file": "packages/video-tools-1.0.0.wrx",
+      "size": 11718,
+      "sha256": "c19b49b898629e77131962ea0c59a42797ef3d0ddbb07f066afacc263b585e06",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "video-tools",
+        "kind": "extension",
+        "name": "Video-Werkzeug",
+        "version": "1.0.0",
+        "publisher": "Werkraum",
+        "summary": "Lokale Videos schneiden, Ton als MP3 speichern, MP4 erzeugen, fürs Handy verkleinern und Kapitel einzeln speichern.",
+        "description": "Benötigt den aktuellen eingerichteten Video- & Audio-Downloader für das vorhandene ffmpeg. Originaldateien bleiben erhalten. Aufgaben werden nacheinander lokal verarbeitet, sind abbrechbar und erzeugen neue Projektdateien. Keine Anmeldung oder Cloud. Gesprochene Wörter aus Video- und Audiodateien bis 20 Minuten lokal als SRT erkennen: Spracheingabe unter KI → Sprache einrichten und Projekt für KI freigeben. Zeitblöcke bis eine Minute, keine Analyse der Bildinhalte oder Geräusche.",
+        "category": "medien",
+        "tone": "subscriptions",
+        "glyph": "play",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Ausschnitt, MP3, MP4, Handy und Kapitel",
+          "Originale bleiben erhalten",
+          "Lokale Warteschlange mit Abbruch und Fortschritt",
+          "Gesprochene Wörter lokal als SRT erkennen"
+        ],
+        "permissions": [
+          {
+            "icon": "files",
+            "text": "Liest die ausgewählte Projektdatei und speichert neue Ergebnisse. Originaldateien bleiben erhalten. Nutzt das eingerichtete ffmpeg des Downloaders, ohne Cloud."
+          }
+        ],
+        "requirements": [
+          "Werkraum 0.14 oder neuer",
+          "Aktueller eingerichteter Video- & Audio-Downloader mit ffmpeg",
+          "Texterkennung: eingerichtete lokale Spracheingabe und KI-Freigabe"
+        ],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Teil von Werkraum",
+        "sourceUrl": "",
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "date": "2026-10-03",
+            "notes": [
+              "Erste geprüfte Version als separates signiertes Paket"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "video-tools",
+            "label": "Video-Werkzeug",
+            "glyph": "play"
+          }
+        ],
+        "minAppVersion": "0.14.0",
+        "routes": [
+          "video-tools"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/video-tools/icon.svg",
+          "size": 297,
+          "sha256": "50b8dbcadfc914fac71c9bb999c48029c1ba678641cbafcbdab67e798cd2c014"
+        },
+        "banner": {
+          "file": "assets/video-tools/banner.svg",
+          "size": 299,
+          "sha256": "2e703161fd40906b704b121faacdc1f11932fc8a7948b62f379f87ffcc03d060"
+        }
+      }
+    },
+    {
+      "id": "weather",
+      "version": "1.0.0",
+      "file": "packages/weather-1.0.0.wrx",
+      "size": 22030,
+      "sha256": "c61ff44ce6ee3af81f7ae138fc4255b336b5b91b25f32ac66aef67aab4dcacfc",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "weather",
+        "kind": "extension",
+        "name": "Wetter & Garten",
+        "version": "1.0.0",
+        "publisher": "Werkraum",
+        "summary": "Das Wetter für deinen Ort, ohne Konto: sieben Tage, ein Gießhinweis für den Garten und eine Frostwarnung, die sich von selbst meldet.",
+        "description": "Gib deinen Ort oder deine Postleitzahl ein, und Werkraum zeigt das Wetter von jetzt und die nächsten sieben Tage: Temperatur, Regen, Wind und Sonnenzeiten. Für den Garten rechnet Werkraum aus Regen und Verdunstung der letzten Tage aus, ob gegossen werden sollte, und nennt die kommenden Frostnächte. Mit der Frostwarnung prüft Werkraum zweimal am Tag von selbst die nächsten drei Nächte und meldet sich, bevor es friert. Der Ort gilt für das Projekt, so kann jedes Projekt seinen eigenen haben: den Garten, den Schrebergarten oder das Urlaubsziel. Die Daten kommen von Open-Meteo, ein Konto oder ein Schlüssel ist nicht nötig.",
+        "category": "alltag",
+        "tone": "media",
+        "glyph": "sun",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Wetter jetzt und sieben Tage im Voraus, für jeden Ort und jede deutsche Postleitzahl",
+          "Gießhinweis aus Regen und Verdunstung der letzten drei Tage",
+          "Frostnächte der kommenden Woche, auch Bodenfrost-Gefahr",
+          "Frostwarnung: meldet sich von selbst, bevor es friert",
+          "Ohne Konto und ohne Schlüssel, ein eigener Ort je Projekt"
+        ],
+        "permissions": [
+          {
+            "icon": "globe",
+            "text": "Sendet den eingegebenen Ortsnamen einmal an Open-Meteo und danach die Koordinaten des Orts für die Vorhersage; mit Frostwarnung zweimal am Tag von selbst"
+          },
+          {
+            "icon": "map",
+            "text": "Schlägt eine eingegebene Postleitzahl einmal bei OpenStreetMap (Nominatim) nach"
+          },
+          {
+            "icon": "bell",
+            "text": "Meldet sich mit einer Benachrichtigung vor Frostnächten, wenn die Frostwarnung eingeschaltet ist"
+          },
+          {
+            "icon": "files",
+            "text": "Speichert den Ort und die Einstellungen der Frostwarnung im Projekt"
+          }
+        ],
+        "requirements": [
+          "Braucht Werkraum 0.11 oder neuer",
+          "Internetverbindung",
+          "Die Frostwarnung arbeitet, solange Werkraum geöffnet ist"
+        ],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Wetterdaten: Open-Meteo.com (CC BY 4.0)",
+        "sourceUrl": "https://open-meteo.com/",
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "date": "2026-10-02",
+            "notes": [
+              "Erste Version: Wetter jetzt und sieben Tage für deinen Ort",
+              "Gießhinweis für den Garten und die Frostnächte der kommenden Woche",
+              "Frostwarnung als Benachrichtigung"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "weather",
+            "label": "Wetter",
+            "glyph": "sun"
+          }
+        ],
+        "minAppVersion": "0.11.0",
+        "routes": [
+          "weather"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/weather/icon.svg",
+          "size": 2380,
+          "sha256": "34c02eb0d27ca37d36bc678d16d0b4bb8b7dc1616e8e517b9638897e0aa08d65"
+        },
+        "banner": {
+          "file": "assets/weather/banner.svg",
+          "size": 4442,
+          "sha256": "235f43ebca3e2c8ca1fdd82b38383720f35473fc70614f442035481553f47b66"
+        }
+      }
+    },
+    {
+      "id": "web-archive",
+      "version": "1.0.0",
+      "file": "packages/web-archive-1.0.0.wrx",
+      "size": 9360,
+      "sha256": "b1f99e11e0636a6472e6da6fee3908249e8d4b7f03469547600e92d0e21fdbc9",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "web-archive",
+        "kind": "extension",
+        "name": "Webseitenarchiv",
+        "version": "1.0.0",
+        "publisher": "Werkraum",
+        "summary": "Artikel und Anleitungen als lesbare Kopie mit Bildern im Projekt behalten – auch ohne Internet.",
+        "description": "Öffentlich lesbare Webseiten als Textkopie mit bis zu zwölf Bildern speichern. Quelle und Speicherdatum bleiben dabei. Die Kopie lässt sich offline lesen; die Textdatei erscheint in Dateien, Suche und KI. Quellcode und Skripte werden nicht ausgeführt, Bilder beim Speichern ins Projekt übernommen. Bestehende Kopien werden nicht überschrieben. Ohne Anmeldung; kein vollständiger Browser-Schnappschuss, keine PDF-Erzeugung, Videos oder Inhalte, die erst durch JavaScript geladen werden. Entfernen eines Archiveintrags behält seine Dateien.",
+        "category": "medien",
+        "tone": "subscriptions",
+        "glyph": "globe",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Lesbare Textkopie mit Herkunft und Datum",
+          "Bis zu zwölf Bilder dauerhaft im Projekt",
+          "Offline lesen und mit Suche und KI verwenden",
+          "Skripte und Quellcode werden nicht ausgeführt"
+        ],
+        "permissions": [
+          {
+            "icon": "globe",
+            "text": "Lädt nur die von dir angegebene öffentliche Webseite und ihre ausgewählten Bilder beim Speichern"
+          },
+          {
+            "icon": "files",
+            "text": "Speichert Kopie, Textdatei und Bilder im gewählten Projekt"
+          }
+        ],
+        "requirements": [
+          "Werkraum 0.12 oder neuer",
+          "Internet beim Speichern; keine Anmeldung an Webseiten"
+        ],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Teil von Werkraum",
+        "sourceUrl": "",
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "date": "2026-10-02",
+            "notes": [
+              "Artikel und Anleitungen mit Bildern dauerhaft speichern",
+              "Offline-Lesen, Textdatei für Suche und KI, Fortschrittsanzeige oben"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "web-archive",
+            "label": "Webseitenarchiv",
+            "glyph": "globe"
+          }
+        ],
+        "minAppVersion": "0.12.0",
+        "routes": [
+          "web-archive"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/web-archive/icon.svg",
+          "size": 346,
+          "sha256": "d15fdd2eb86989715b64fc94d448916de85149c389c230cc052888947d31cd31"
+        },
+        "banner": {
+          "file": "assets/web-archive/banner.svg",
+          "size": 349,
+          "sha256": "a6bdb5eebac026052b3301ccd4becdb6fbbcb3c0b0e9af9af30f41c6880ed24e"
+        }
+      }
+    },
+    {
+      "id": "youtube-download",
+      "version": "2.5.0",
+      "file": "packages/youtube-download-2.5.0.wrx",
+      "size": 66649,
+      "sha256": "752442a59ff55996172820aeb27a89d2abae52312acb9f48f5cec68a49d0d354",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "youtube-download",
+        "kind": "extension",
+        "name": "Video- & Audio-Downloader",
+        "version": "2.5.0",
+        "publisher": "Werkraum",
+        "summary": "Videos, Musik, Untertitel und Vorschaubilder von YouTube und vielen anderen Seiten speichern, auch ganze Playlists, Kanäle und Videos auf beliebigen Webseiten.",
+        "description": "Füge die Adresse eines Videos, einer Playlist oder eines Kanals ein, wähle Video, Audio, Untertitel oder Vorschaubild mit Format und Qualität, und Werkraum speichert alles im Projekt. Wie bei MeTube gehen neben YouTube über tausend Plattformen (etwa Vimeo, ARD, ZDF, arte, SoundCloud) und auch beliebige Webseiten mit eingebettetem Video. Der Funktionsumfang folgt MeTube: Playlists und ganze Kanäle, Audio als MP3, M4A, Opus, WAV oder FLAC mit Cover, Untertitel in vielen Sprachen, Kapitel als eigene Dateien, Ausschnitte, Werbeabschnitte entfernen, mehrere Downloads gleichzeitig und Abos, die neue Videos eines Kanals automatisch laden. Die Warteschlange bleibt nach einem Neustart erhalten. yt-dlp und ffmpeg kommen aus den offiziellen Quellen, werden per Prüfsumme kontrolliert und lassen sich getrennt aktualisieren. Bitte nur speichern, was du nutzen darfst.",
+        "category": "medien",
+        "tone": "youtube",
+        "glyph": "youtube",
+        "featured": true,
+        "stage": "stable",
+        "highlights": [
+          "Einzelne Videos, ganze Playlists und Kanäle, von YouTube, über tausend anderen Plattformen und beliebigen Webseiten",
+          "Video bis 4K mit Codec-Wahl, Audio als MP3, M4A, Opus, WAV oder FLAC mit Cover",
+          "Untertitel in vielen Sprachen und Vorschaubilder, auf Wunsch auch als Notiz",
+          "Abos: neue Videos eines Kanals werden automatisch geladen",
+          "Kapitel teilen, Ausschnitte, Werbeabschnitte entfernen (SponsorBlock)",
+          "Fertige Dateien mit einem Klick auf den PC laden, mit ihrem richtigen Namen",
+          "Mehrere Downloads gleichzeitig; die Warteschlange bleibt nach einem Neustart erhalten"
+        ],
+        "permissions": [
+          {
+            "icon": "globe",
+            "text": "Ruft öffentliche Videos von YouTube und anderen Seiten ab. Alle Verbindungen von yt-dlp gehen durch eine Sperre, die nur öffentliche Internetadressen erlaubt, nie Geräte in deinem Heimnetz"
+          },
+          {
+            "icon": "download",
+            "text": "Lädt yt-dlp und ffmpeg aus den offiziellen GitHub-Quellen und fragt höchstens einmal am Tag nach einer neuen yt-dlp-Version (abschaltbar)"
+          },
+          {
+            "icon": "settings",
+            "text": "Startet die Hilfsprogramme yt-dlp und ffmpeg auf diesem Rechner"
+          },
+          {
+            "icon": "refresh",
+            "text": "Prüft abonnierte Kanäle in deinem gewählten Abstand, solange Werkraum geöffnet ist"
+          },
+          {
+            "icon": "key",
+            "text": "Nutzt eine Cookies-Datei nur, wenn du sie selbst lädst, und nur bis Werkraum beendet wird"
+          },
+          {
+            "icon": "files",
+            "text": "Speichert Videos, Musik, Untertitel und Bilder im Dateien-Ordner des Projekts"
+          }
+        ],
+        "requirements": [
+          "Windows 10 oder 11, oder macOS 10.15 und neuer",
+          "Windows: ffmpeg wird beim Einrichten mitgeladen (Bild und Ton bis 4K, Audio-Umwandlung, Kapitel)",
+          "macOS: ein vorhandenes ffmpeg wird genutzt, zum Beispiel „brew install ffmpeg“",
+          "Beim Einrichten werden unter Windows ca. 110 MB, unter macOS ca. 40 MB geladen",
+          "Abos und die Warteschlange arbeiten, solange Werkraum geöffnet ist"
+        ],
+        "platforms": [
+          "win32",
+          "darwin"
+        ],
+        "license": "yt-dlp: Unlicense · ffmpeg: GPL",
+        "sourceUrl": "https://github.com/yt-dlp/yt-dlp",
+        "changelog": [
+          {
+            "version": "2.5.0",
+            "date": "2026-10-03",
+            "notes": [
+              "Stellt geprüftes ffmpeg auch dem lokalen Video-Werkzeug bereit",
+              "Schützt gemeinsam verwendete Hilfsprogramme während laufender Bearbeitungen"
+            ]
+          },
+          {
+            "version": "2.4.1",
+            "date": "2026-10-02",
+            "notes": [
+              "Laufende Aktionen mit Fortschritt in der Werkraum-Kopfzeile anzeigen"
+            ]
+          },
+          {
+            "version": "2.4.0",
+            "date": "2026-10-01",
+            "notes": [
+              "Andere Seiten funktionieren jetzt wirklich: Bisher merkte sich der Downloader nach dem Lesen statt der Seite die Direktadresse einer Videodatei, wodurch viele Downloads scheiterten.",
+              "Betroffen waren unter anderem TikTok, Instagram, Dailymotion, Twitch und SoundCloud; dort stimmen jetzt auch Titel und Qualität.",
+              "Mehrere Videos auf einer Webseite werden einzeln geladen; ein einzelnes Video heißt wie die Seite.",
+              "Die gewählte Qualität zählt die kürzere Bildseite: Hochkant-Videos (TikTok, Instagram, Shorts) kommen nicht mehr in schlechterer Qualität.",
+              "Gibt es das gewünschte Format nicht, nimmt der Downloader das beste vorhandene, statt abzubrechen.",
+              "Funde aus dem Mediensammler werden als Besucher der Seite geladen, auf der sie gefunden wurden.",
+              "Technische Details bei nicht lesbaren Adressen; neue Meldungen für Kopierschutz (DRM), nicht erreichbare Seiten und Videos ohne Ton.",
+              "Mit echtem yt-dlp und ffmpeg an lokalen Testseiten geprüft; an 15 öffentlichen Seiten Lesen und Formatwahl ohne Download durchgespielt."
+            ]
+          },
+          {
+            "version": "2.3.1",
+            "date": "2026-10-01",
+            "notes": [
+              "Beim Beenden werden auch noch offene HTTP-Verbindungen geschlossen; verspätete Adressprüfungen starten keine neue Verbindung.",
+              "Wenn der Netzwerkschutz nicht startet, bleibt der Downloader ausgeschaltet und zeigt den Grund an.",
+              "Verständliche Meldung, wenn eine Videoseite eine Anmeldung verlangt.",
+              "Mit echten YouTube- und Webseiten-Downloads sowie Streams und Ausschnitten über yt-dlp und ffmpeg geprüft."
+            ]
+          },
+          {
+            "version": "2.3.0",
+            "date": "2026-09-30",
+            "notes": [
+              "Neuer Name „Video- & Audio-Downloader“: neben YouTube gehen über tausend Plattformen.",
+              "Wie bei MeTube auch beliebige Webseiten mit eingebettetem Video: Alle Verbindungen von yt-dlp laufen durch eine Sperre, die nur öffentliche Internetadressen zulässt (ab Werkraum 0.10).",
+              "Streams und Seiten, die der Mediensammler übergibt, lassen sich damit laden.",
+              "Webadressen funktionieren auch ohne https:// und www.",
+              "Verständliche Meldungen, wenn eine Seite kein Video enthält oder ins Heimnetz verweist."
+            ]
+          },
+          {
+            "version": "2.2.0",
+            "date": "2026-09-29",
+            "notes": [
+              "Dateien und Warteschlange tragen den echten Titel des Videos statt „YouTube-Video“",
+              "Der Titel wird schon beim Hinzufügen nachgeschlagen, wie bei MeTube"
+            ]
+          },
+          {
+            "version": "2.1.0",
+            "date": "2026-09-29",
+            "notes": [
+              "Fertige Dateien mit einem Klick auf den PC laden, mit richtigem Dateinamen und Ordnerwahl",
+              "Braucht Werkraum 0.7"
+            ]
+          },
+          {
+            "version": "2.0.0",
+            "date": "2026-09-28",
+            "notes": [
+              "Funktionsumfang wie MeTube: Playlists, ganze Kanäle und viele andere Seiten",
+              "Audio als MP3, M4A, Opus, WAV oder FLAC mit Cover, Untertitel und Vorschaubilder",
+              "Abos laden neue Videos eines Kanals automatisch",
+              "Kapitel teilen, Ausschnitte, Werbeabschnitte entfernen, Namensvorsatz",
+              "Mehrere Downloads gleichzeitig mit Geschwindigkeit und Restzeit; Warteschlange bleibt nach Neustart erhalten",
+              "Cookies-Datei und Passwort für geschützte Videos, nur für die laufende Sitzung",
+              "yt-dlp bleibt auf Wunsch automatisch aktuell (höchstens eine Prüfung am Tag)"
+            ]
+          },
+          {
+            "version": "1.1.1",
+            "date": "2026-09-28",
+            "notes": [
+              "Jetzt ein eigenständiges, signiertes Paket aus dem Werkraum Store",
+              "Eigenes Symbol und Titelbild",
+              "Eine vorhandene Einrichtung aus Werkraum 0.4 wird übernommen"
+            ]
+          },
+          {
+            "version": "1.1.0",
+            "date": "2026-09-27",
+            "notes": [
+              "ffmpeg fest eingebaut: Bild und Ton in voller Qualität bis 4K",
+              "Abbrechen beendet den Download auch unter Windows zuverlässig",
+              "Die zuletzt gewählte Qualität bleibt ausgewählt"
+            ]
+          },
+          {
+            "version": "1.0.0",
+            "date": "2026-09-27",
+            "notes": [
+              "Erste Version mit Warteschlange"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "youtube-download",
+            "label": "Downloads",
+            "glyph": "youtube"
+          }
+        ],
+        "minAppVersion": "0.7.0",
+        "routes": [
+          "youtube"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 115343360,
+          "darwin": 41943040,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/youtube-download/icon.svg",
+          "size": 1462,
+          "sha256": "70da890161182579df5a646c68d4a6c48438fd12fc513dc3e13d2c2bcf658328"
+        },
+        "banner": {
+          "file": "assets/youtube-download/banner.svg",
+          "size": 2972,
+          "sha256": "55ce65ffe70a38fc448b8c9f0b41ee27c6b937ddce30b031513f13b371511ef0"
+        }
+      }
+    },
+    {
+      "id": "youtube-subscriptions",
+      "version": "1.5.0",
+      "file": "packages/youtube-subscriptions-1.5.0.wrx",
+      "size": 34050,
+      "sha256": "01c6a16b4695a4864ef10e047fbddda15e145b8b8cd94d822d742316445ba14a",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "youtube-subscriptions",
+        "kind": "extension",
+        "name": "YouTube-Abo-Umzug",
+        "version": "1.5.0",
+        "publisher": "Werkraum",
+        "summary": "Abos vom alten ins neue YouTube-Konto bringen: einfach im Browser oder automatisch.",
+        "description": "Der einfache Weg braucht keine Einrichtung: Du holst die Abo-Liste deines alten Kontos als Datei von Google (Google Takeout), wählst die ZIP-Datei in Werkraum aus und entscheidest, welche Kanäle mitkommen. Dann öffnet Werkraum Kanal für Kanal in deinem Browser, und du bestätigst das Abo im neuen Konto mit einem Klick. Werkraum merkt sich, was erledigt ist, auch über mehrere Tage. Für sehr viele Kanäle gibt es zusätzlich den automatischen Weg: Mit einem eigenen, einmalig angelegten Google-Zugang meldest du beide Konten an, und Werkraum trägt die gewählten Abos selbst ein. In beiden Fällen bleiben die bisherigen Abos beider Konten erhalten; kopiert werden kostenlose Kanal-Abos, keine bezahlten Mitgliedschaften oder Kontoinhalte.",
+        "category": "medien",
+        "tone": "subscriptions",
+        "glyph": "list",
+        "featured": false,
+        "stage": "beta",
+        "highlights": [
+          "Einfacher Weg ohne Einrichtung: Datei von Google wählen, Kanäle auswählen, im Browser abonnieren",
+          "Die ZIP-Datei von Google Takeout direkt auswählen, ohne sie auszupacken",
+          "Merkt sich, welche Kanäle erledigt sind, auch über mehrere Tage",
+          "Automatischer Weg für sehr viele Kanäle, mit eigenem Google-Zugang und Verbindungstest",
+          "Liste als CSV, TXT oder JSON sichern; keine Abos werden gelöscht"
+        ],
+        "permissions": [
+          {
+            "icon": "list",
+            "text": "Speichert die Liste deiner Abos und den Fortschritt im Projekt"
+          },
+          {
+            "icon": "globe",
+            "text": "Einfacher Weg: öffnet YouTube-Kanäle in deinem Browser; abonniert wird dort von dir selbst"
+          },
+          {
+            "icon": "key",
+            "text": "Automatischer Weg: verbindet sich nur nach deiner Anmeldung mit deinem Google-Konto; der Zugang bleibt im Arbeitsspeicher"
+          },
+          {
+            "icon": "bell",
+            "text": "Meldet sich, wenn die automatische Übertragung fertig ist oder pausiert"
+          }
+        ],
+        "requirements": [
+          "Einfacher Weg: ein Browser, in dem du bei YouTube angemeldet bist",
+          "Automatischer Weg: eigener Google-Desktop-Zugang mit aktivierter YouTube Data API, Anmeldung am selben Computer wie Werkraum",
+          "YouTube begrenzt neue Abos (laut Hilfe bis zu 75 pro Tag); größere Listen dauern mehrere Tage"
+        ],
+        "platforms": [
+          "win32",
+          "darwin"
+        ],
+        "license": "Werkraum",
+        "sourceUrl": "https://developers.google.com/youtube/v3",
+        "changelog": [
+          {
+            "version": "1.5.0",
+            "date": "2026-10-01",
+            "notes": [
+              "Neuer einfacher Weg ohne Google-Einrichtung: Abo-Liste als Datei von Google holen, Kanäle auswählen und im Browser mit einem Klick je Kanal abonnieren.",
+              "Die ZIP-Datei von Google Takeout lässt sich direkt auswählen; Werkraum findet die Abo-Liste darin selbst.",
+              "Werkraum merkt sich erledigte Kanäle im Projekt; „Nächsten Kanal öffnen“ oder fünf auf einmal.",
+              "Der automatische Weg mit eigenem Google-Zugang bleibt und nutzt dieselbe Liste; der Weg lässt sich oben umschalten."
+            ]
+          },
+          {
+            "version": "1.4.0",
+            "date": "2026-10-01",
+            "notes": [
+              "Alle oder ausgewählte Kanäle mit Häkchen, Suche, „Alle auswählen“ und „Keine auswählen“ übertragen.",
+              "Verbindungstest für altes und neues Konto, ohne ein Test-Abo anzulegen.",
+              "Vier klar getrennte Schritte mit Zielkonto und Anzahl vor der Bestätigung.",
+              "Auswahl im Backend geprüft und an die Bestätigung gebunden; mehr als 20 gewählte Kanäle automatisch übertragen.",
+              "Bereits vorhandene Abos bleiben bestehen; kostenlose Abos werden kopiert, keine Mitgliedschaften."
+            ]
+          },
+          {
+            "version": "1.3.0",
+            "date": "2026-09-28",
+            "notes": [
+              "Meldet sich unter der Glocke und als Mitteilung von Windows oder macOS, wenn der Umzug fertig ist oder wegen des Google-Tageslimits pausiert",
+              "Läuft weiterhin auch mit Werkraum 0.5, dort ohne Meldungen"
+            ]
+          },
+          {
+            "version": "1.2.1",
+            "date": "2026-09-28",
+            "notes": [
+              "Jetzt ein eigenständiges, signiertes Paket aus dem Werkraum Store",
+              "Eigenes Symbol und Titelbild",
+              "Eine vorhandene Installation aus Werkraum 0.4 wird übernommen"
+            ]
+          },
+          {
+            "version": "1.2.0",
+            "date": "2026-09-28",
+            "notes": [
+              "Eindeutiger Name und verständlichere Anleitung zu Konten und Tageslimits",
+              "Quellkonto sichtbar; gleiches Quell- und Zielkonto wird abgewiesen",
+              "Listen gezielt ersetzen; Google-Zugang entfernen trennt alle Verbindungen"
+            ]
+          },
+          {
+            "version": "1.1.0",
+            "date": "2026-09-27",
+            "notes": [
+              "Umzug in drei Schritten mit automatischer Übertragung",
+              "Bei einem Google-Limit pausiert die Übertragung; später den Rest erneut prüfen und bestätigen",
+              "Gelöschte Kanäle werden gemerkt und übersprungen"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "youtube-subscriptions",
+            "label": "Abo-Umzug",
+            "glyph": "list"
+          }
+        ],
+        "minAppVersion": "0.5.0",
+        "routes": [
+          "subscriptions"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/youtube-subscriptions/icon.svg",
+          "size": 1704,
+          "sha256": "764aa6550afe9a7e8bbf94948eff888989a5f7e581e8603885c4c9fce5a9d9a1"
+        },
+        "banner": {
+          "file": "assets/youtube-subscriptions/banner.svg",
+          "size": 3953,
+          "sha256": "7203ae084a0062195c48d5b2bdd5e5ecfdce9cc15ed49bb689b6be0a834966f3"
+        }
+      }
+    }
+  ],
+  "builtins": [
+    {
+      "id": "assistant",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "assistant",
+        "kind": "builtin",
+        "name": "KI-Assistent",
+        "version": "1.0.0",
+        "publisher": "Werkraum",
+        "summary": "Fragen stellen, Notizen anlegen und Medien finden, mit deiner eigenen KI.",
+        "description": "Der Assistent arbeitet im Kontext deines Projekts: Er beantwortet Fragen, fasst zusammen, legt auf Wunsch Notizen an und sucht Medien. Du wählst den Anbieter selbst, ob Cloud-KI mit eigenem Schlüssel oder ein lokales Modell auf deinem Rechner.",
+        "category": "ki",
+        "tone": "assistant",
+        "glyph": "assistant",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Cloud-Anbieter oder lokales Modell nach Wahl",
+          "Arbeitet nur mit Projekten, die du dafür freigibst",
+          "Legt Notizen an und speichert Medien auf deinen Wunsch"
+        ],
+        "permissions": [
+          {
+            "icon": "key",
+            "text": "Nutzt deinen eigenen API-Schlüssel oder ein lokales Modell"
+          },
+          {
+            "icon": "shield",
+            "text": "Liest Projektinhalte nur mit deiner Freigabe pro Projekt"
+          },
+          {
+            "icon": "lock",
+            "text": "Darf Freigaben, KI-Einstellungen und Erweiterungen nicht selbst ändern"
+          }
+        ],
+        "requirements": [],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Werkraum",
+        "sourceUrl": "",
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "date": "2026-09-26",
+            "notes": [
+              "Teil der Grundausstattung"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg"
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/assistant/icon.svg",
+          "size": 1303,
+          "sha256": "f32519aabbd84a2fa9b549b981e4c6dc29ee074cd3111b54475165deb0e5be58"
+        },
+        "banner": {
+          "file": "assets/assistant/banner.svg",
+          "size": 2808,
+          "sha256": "49e4866c042105241c613454b88fef1cf7ecb7e1d999a651ffa5202200a1526f"
+        }
+      }
+    },
+    {
+      "id": "media",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "media",
+        "kind": "builtin",
+        "name": "Web & Medien",
+        "version": "1.0.0",
+        "publisher": "Werkraum",
+        "summary": "Bilder und Videos einer Webseite entdecken und im Projekt sammeln.",
+        "description": "Gib eine Webadresse ein, und Werkraum zeigt dir die Bilder und Videos dieser Seite. Du entscheidest, was gespeichert wird. Herkunft und Vorschau bleiben bei jeder Datei erhalten.",
+        "category": "medien",
+        "tone": "media",
+        "glyph": "media",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Findet Bilder und Videos auf öffentlichen Webseiten",
+          "Bis zu 20 Medien auf einmal auswählen und speichern",
+          "Die Herkunft jeder Datei bleibt sichtbar"
+        ],
+        "permissions": [
+          {
+            "icon": "globe",
+            "text": "Ruft nur die Webseiten ab, die du eingibst"
+          },
+          {
+            "icon": "files",
+            "text": "Speichert ausgewählte Medien im Dateien-Ordner des Projekts"
+          }
+        ],
+        "requirements": [],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Werkraum",
+        "sourceUrl": "",
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "date": "2026-09-26",
+            "notes": [
+              "Teil der Grundausstattung"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg"
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/media/icon.svg",
+          "size": 1284,
+          "sha256": "ee5a777b205a7567c4280fe02834095884fb3dbcefbb600100fafcd2b5d0295c"
+        },
+        "banner": {
+          "file": "assets/media/banner.svg",
+          "size": 3012,
+          "sha256": "c3275fa8c3df99f4db28bc5a29222528a5c3c040bd18a6e07908b910e35bdc4c"
+        }
+      }
+    },
+    {
+      "id": "notes",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "notes",
+        "kind": "builtin",
+        "name": "Notizen",
+        "version": "1.0.0",
+        "publisher": "Werkraum",
+        "summary": "Gedanken festhalten und Wissen im Projekt sammeln.",
+        "description": "Schreibe Ideen, Links und nächste Schritte direkt ins Projekt. Jede Notiz liegt zusätzlich als lesbare Markdown-Datei im Projektordner, so bleibt sie auch ohne Werkraum zugänglich.",
+        "category": "organisieren",
+        "tone": "notes",
+        "glyph": "notes",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Notizen mit Titel und Text",
+          "Als Markdown-Datei im Projektordner gespeichert",
+          "Die KI kann auf Wunsch Notizen für dich anlegen"
+        ],
+        "permissions": [
+          {
+            "icon": "files",
+            "text": "Speichert Notizen im Notizen-Ordner des Projekts"
+          }
+        ],
+        "requirements": [],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Werkraum",
+        "sourceUrl": "",
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "date": "2026-09-26",
+            "notes": [
+              "Teil der Grundausstattung"
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg"
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/notes/icon.svg",
+          "size": 1743,
+          "sha256": "23c2fef53b6f5e917463c42e734c1a7d698db95d46124f89437dbc7edcf35558"
+        },
+        "banner": {
+          "file": "assets/notes/banner.svg",
+          "size": 2796,
+          "sha256": "7834771649450d0f3bc062049d609f65efe081e18df62f001a19edfc2956efa2"
+        }
+      }
+    }
+  ],
+  "signature": "nn7Di+6+yoDKRw/w5acRNGuA5wlcxbKcr6ZtVBcEDMmIWIctUZqEUU9h9hIlscdouo3K20m8bSTW3rUGcGupBg=="
+}

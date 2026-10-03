@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5aa9e6"/><stop offset="0.6" stop-color="#2f7fc1"/><stop offset="1" stop-color="#1d5a94"/></linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.1" r="0.7"><stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2" fill="#ffffff" fill-opacity="0.13"/></pattern>
+    <filter id="card" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="16" stdDeviation="17" flood-color="#0a2238" flood-opacity="0.34"/></filter>
+    <filter id="lift" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0a2238" flood-opacity="0.32"/></filter>
+  </defs>
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <rect width="1200" height="420" fill="url(#glow)"/>
+  <circle cx="1090" cy="-30" r="230" fill="#ffffff" fill-opacity="0.07"/>
+  <circle cx="110" cy="480" r="270" fill="#000000" fill-opacity="0.07"/>
+  <circle cx="190" cy="92" r="46" fill="#ffffff" fill-opacity="0.08"/>
+  <g filter="url(#card)"><rect x="250" y="78" width="340" height="264" rx="26" fill="#fffdf8"/></g>
+      <circle cx="322" cy="150" r="36" fill="#f3c453"/><path d="M310.6 197.3 a23 23 0 0 1 1.38 -46 a33.12 33.12 0 0 1 63.02 5.98 a20.7 20.7 0 0 1 -1.84 40.02 Z" fill="#2f7fc1"/>
+      <rect x="430" y="124" width="120" height="24" rx="12" fill="#d8e9f7"/><rect x="430" y="162" width="84" height="14" rx="7" fill="#eef5fb"/>
+      <rect x="272" y="236" width="48" height="84" rx="14" fill="#d8e9f7"/><circle cx="296" cy="262" r="10" fill="#f3c453"/><rect x="282" y="288" width="28" height="8" rx="4" fill="#fffdf8"/><rect x="286" y="302" width="20" height="6" rx="3" fill="#fffdf8"/><rect x="332" y="236" width="48" height="84" rx="14" fill="#eef5fb"/><circle cx="356" cy="262" r="10" fill="#2f7fc1"/><rect x="342" y="288" width="28" height="8" rx="4" fill="#d8e9f7"/><rect x="346" y="302" width="20" height="6" rx="3" fill="#d8e9f7"/><rect x="392" y="236" width="48" height="84" rx="14" fill="#eef5fb"/><circle cx="416" cy="262" r="10" fill="#f3c453"/><rect x="402" y="288" width="28" height="8" rx="4" fill="#d8e9f7"/><rect x="406" y="302" width="20" height="6" rx="3" fill="#d8e9f7"/><rect x="452" y="236" width="48" height="84" rx="14" fill="#eef5fb"/><circle cx="476" cy="262" r="10" fill="#2f7fc1"/><rect x="462" y="288" width="28" height="8" rx="4" fill="#d8e9f7"/><rect x="466" y="302" width="20" height="6" rx="3" fill="#d8e9f7"/><rect x="512" y="236" width="48" height="84" rx="14" fill="#eef5fb"/><circle cx="536" cy="262" r="10" fill="#f3c453"/><rect x="522" y="288" width="28" height="8" rx="4" fill="#d8e9f7"/><rect x="526" y="302" width="20" height="6" rx="3" fill="#d8e9f7"/>
+    <g filter="url(#lift)"><circle cx="650" cy="210" r="40" fill="#f3c453"/></g><path d="M650 188 C656 200 666 207 666 214 A16 16 0 1 1 634 214 C634 207 644 200 650 188 Z" fill="#17446f"/>
+    <g filter="url(#card)"><rect x="712" y="104" width="250" height="212" rx="26" fill="#fffdf8"/></g>
+      <path d="M740 184 C735.2 152.8 759.2 131.2 788 136 C792.8 164.8 771.2 188.8 740 184 Z" fill="#2f7fc1"/><path d="M740 184 L773.6 150.4" stroke="#fffdf8" stroke-width="3.84" stroke-linecap="round"/><rect x="806" y="142" width="120" height="16" rx="8" fill="#d8e9f7"/><rect x="806" y="168" width="84" height="12" rx="6" fill="#eef5fb"/>
+      <rect x="736" y="214" width="202" height="34" rx="12" fill="#eef5fb"/><path d="M758 222 C760.7 227.4 765.2 230.55 765.2 233.7 A7.2 7.2 0 1 1 750.8 233.7 C750.8 230.55 755.3 227.4 758 222 Z" fill="#2f7fc1"/><rect x="778" y="225" width="118" height="12" rx="6" fill="#d8e9f7"/><rect x="736" y="260" width="202" height="34" rx="12" fill="#eef5fb"/><path d="M758 268 V286" transform="rotate(0 758 277)" stroke="#2f7fc1" stroke-width="4" stroke-linecap="round"/><path d="M758 268 V286" transform="rotate(60 758 277)" stroke="#2f7fc1" stroke-width="4" stroke-linecap="round"/><path d="M758 268 V286" transform="rotate(120 758 277)" stroke="#2f7fc1" stroke-width="4" stroke-linecap="round"/><rect x="778" y="271" width="92" height="12" rx="6" fill="#d8e9f7"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="face" x1="0.12" y1="0.04" x2="0.88" y2="1"><stop offset="0" stop-color="#c08a5a"/><stop offset="0.55" stop-color="#96623a"/><stop offset="1" stop-color="#6b4424"/></linearGradient>
+    <radialGradient id="light" cx="0.28" cy="0.14" r="0.9"><stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/><stop offset="0.6" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#2c1a0b" flood-opacity="0.34"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#face)"/>
+  <rect width="512" height="512" rx="116" fill="url(#light)"/>
+  <rect x="1.5" y="1.5" width="509" height="509" rx="114.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="3"/>
+  <g filter="url(#soft)"><path d="M256 92 L410 170 V342 L256 420 L102 342 V170 Z" fill="#fffdf8" stroke="#fffdf8" stroke-width="14" stroke-linejoin="round"/>
+    <path d="M102 170 L256 248 L410 170 M256 248 V420" fill="none" stroke="#eedfd0" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M179 131 L333 209 V264" fill="none" stroke="#96623a" stroke-width="26" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="392" cy="380" r="68" fill="#96623a"/><circle cx="392" cy="380" r="56" fill="#f3c453"/><path d="M367 380 H417 M397 360 L417 380 L397 400" fill="none" stroke="#57361b" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

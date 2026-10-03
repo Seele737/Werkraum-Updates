@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="face" x1="0.12" y1="0.04" x2="0.88" y2="1"><stop offset="0" stop-color="#e8734f"/><stop offset="0.55" stop-color="#c84a2a"/><stop offset="1" stop-color="#93301a"/></linearGradient>
+    <radialGradient id="light" cx="0.28" cy="0.14" r="0.9"><stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/><stop offset="0.6" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#3d1208" flood-opacity="0.34"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#face)"/>
+  <rect width="512" height="512" rx="116" fill="url(#light)"/>
+  <rect x="1.5" y="1.5" width="509" height="509" rx="114.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="3"/>
+  <g filter="url(#soft)"><path d="M200 168 q-16 -22 0 -44 q16 -22 0 -44" fill="none" stroke="#fffdf8" stroke-opacity="0.85" stroke-width="14" stroke-linecap="round"/><path d="M256 168 q-16 -22 0 -44 q16 -22 0 -44" fill="none" stroke="#fffdf8" stroke-opacity="0.85" stroke-width="14" stroke-linecap="round"/><path d="M312 168 q-16 -22 0 -44 q16 -22 0 -44" fill="none" stroke="#fffdf8" stroke-opacity="0.85" stroke-width="14" stroke-linecap="round"/>
+    <path d="M96 296 H416" stroke="#fffdf8" stroke-width="26" stroke-linecap="round"/>
+    <path d="M132 262 H380 V338 Q380 408 310 408 H202 Q132 408 132 338 Z" fill="#fffdf8"/>
+    <rect x="112" y="226" width="288" height="42" rx="21" fill="#fffdf8"/><rect x="226" y="192" width="60" height="44" rx="18" fill="#fffdf8"/>
+    <rect x="172" y="318" width="120" height="18" rx="9" fill="#f7dcd3"/>
+    <circle cx="380" cy="384" r="70" fill="#c84a2a"/><circle cx="380" cy="384" r="58" fill="#f3c453"/><path d="M380 354 Q383.6 380.4 410 384 Q383.6 387.6 380 414 Q376.4 387.6 350 384 Q376.4 380.4 380 354 Z" fill="#7a2714"/></g>
+</svg>

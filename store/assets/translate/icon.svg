@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="face" x1="0.12" y1="0.04" x2="0.88" y2="1"><stop offset="0" stop-color="#8a8be0"/><stop offset="0.55" stop-color="#5b5cc0"/><stop offset="1" stop-color="#3d3e8f"/></linearGradient>
+    <radialGradient id="light" cx="0.28" cy="0.14" r="0.9"><stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/><stop offset="0.6" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#16173d" flood-opacity="0.34"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#face)"/>
+  <rect width="512" height="512" rx="116" fill="url(#light)"/>
+  <rect x="1.5" y="1.5" width="509" height="509" rx="114.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="3"/>
+  <g filter="url(#soft)"><path d="M144 116 H300 Q332 116 332 148 V246 Q332 278 300 278 H212 L156 328 V278 H144 Q112 278 112 246 V148 Q112 116 144 116 Z" fill="#fffdf8"/>
+    <rect x="152" y="164" width="140" height="20" rx="10" fill="#dcdcf5"/><rect x="152" y="208" width="96" height="20" rx="10" fill="#dcdcf5"/>
+    <path d="M260 238 H400 Q432 238 432 270 V344 Q432 376 400 376 H388 V420 L340 376 H260 Q228 376 228 344 V270 Q228 238 260 238 Z" fill="#f3c453" stroke="#5b5cc0" stroke-width="12" stroke-linejoin="round"/>
+    <rect x="268" y="280" width="124" height="18" rx="9" fill="#33347a"/><rect x="268" y="320" width="86" height="18" rx="9" fill="#33347a"/>
+    <path d="M396 104 Q401.52 144.48 442 150 Q401.52 155.52 396 196 Q390.48 155.52 350 150 Q390.48 144.48 396 104 Z" fill="#fffdf8"/></g>
+</svg>

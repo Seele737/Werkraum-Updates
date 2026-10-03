@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c08a5a"/><stop offset="0.6" stop-color="#96623a"/><stop offset="1" stop-color="#6b4424"/></linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.1" r="0.7"><stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2" fill="#ffffff" fill-opacity="0.13"/></pattern>
+    <filter id="card" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="16" stdDeviation="17" flood-color="#2c1a0b" flood-opacity="0.34"/></filter>
+    <filter id="lift" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#2c1a0b" flood-opacity="0.32"/></filter>
+  </defs>
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <rect width="1200" height="420" fill="url(#glow)"/>
+  <circle cx="1090" cy="-30" r="230" fill="#ffffff" fill-opacity="0.07"/>
+  <circle cx="110" cy="480" r="270" fill="#000000" fill-opacity="0.07"/>
+  <circle cx="190" cy="92" r="46" fill="#ffffff" fill-opacity="0.08"/>
+  <g filter="url(#card)"><rect x="236" y="84" width="300" height="252" rx="26" fill="#fffdf8"/></g>
+      <path d="M386 112 L462 150 V236 L386 274 L310 236 V150 Z" fill="#96623a" stroke="#96623a" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M310 150 L386 188 L462 150 M386 188 V274" fill="none" stroke="#6b4424" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M348 131 L424 169 V198" fill="none" stroke="#f3c453" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="286" y="298" width="200" height="14" rx="7" fill="#eedfd0"/>
+    <g filter="url(#lift)"><circle cx="596" cy="210" r="40" fill="#f3c453"/></g><path d="M579 210 H613 M599.4 196.4 L613 210 L599.4 223.6" fill="none" stroke="#57361b" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <g filter="url(#card)"><rect x="656" y="70" width="320" height="280" rx="26" fill="#fffdf8"/></g>
+      <path d="M700 118 V304" stroke="#eedfd0" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="700" cy="118" r="14" fill="#96623a"/><path d="M694 119 L698.2 123.2 L706 114.8" fill="none" stroke="#fffdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><rect x="732" y="104" width="180" height="15" rx="7.5" fill="#eedfd0"/><rect x="732" y="126" width="120" height="10" rx="5" fill="#f8f0e8"/><circle cx="700" cy="180" r="14" fill="#96623a"/><path d="M694 181 L698.2 185.2 L706 176.8" fill="none" stroke="#fffdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><rect x="732" y="166" width="150" height="15" rx="7.5" fill="#eedfd0"/><rect x="732" y="188" width="160" height="10" rx="5" fill="#f8f0e8"/><circle cx="700" cy="242" r="14" fill="#f3c453"/><rect x="732" y="228" width="200" height="15" rx="7.5" fill="#eedfd0"/><rect x="732" y="250" width="110" height="10" rx="5" fill="#f8f0e8"/><circle cx="700" cy="304" r="12" fill="#fffdf8" stroke="#eedfd0" stroke-width="5"/><rect x="732" y="290" width="130" height="15" rx="7.5" fill="#f8f0e8"/><rect x="732" y="312" width="90" height="10" rx="5" fill="#f8f0e8"/>
+</svg>
