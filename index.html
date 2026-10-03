@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Geprüfte Werkraum-Updates für Windows und Mac und signierte Erweiterungen. Öffentlich herunterladen, ohne GitHub-Anmeldung.">
+  <title>Werkraum · Updates und Erweiterungen</title>
+  <style>
+    :root{color-scheme:light;--ink:#22382c;--muted:#53665a;--green:#2d674f;--paper:#f5f4ef;--line:#d9e0d9}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,-apple-system,sans-serif}
+    main{max-width:1000px;margin:auto;padding:48px 24px 32px}header{display:flex;align-items:center;gap:14px;margin-bottom:42px}
+    .mark{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:var(--green);color:white;font-size:27px}header strong{font-size:23px}header p{margin:0;color:var(--muted);font-size:14px}
+    .label{color:var(--green);text-transform:uppercase;letter-spacing:.1em;font-size:12px;font-weight:700}h1{font-size:clamp(32px,5vw,48px);line-height:1.2;margin:12px 0 18px;max-width:700px}h2{font-size:22px;margin:0 0 12px}h3{font-size:17px;margin:0 0 8px}
+    .intro{max-width:710px;color:var(--muted);font-size:18px}.buttons{display:flex;flex-wrap:wrap;gap:12px;margin:25px 0 38px}a{color:var(--green);text-underline-offset:3px}.button{padding:12px 20px;background:var(--green);color:white;border-radius:11px;text-decoration:none;font-weight:650}.button.secondary{background:white;color:var(--green);border:1px solid var(--line)}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}section{padding:26px;background:white;border:1px solid var(--line);border-radius:18px}section p{color:var(--muted);margin:0 0 14px}.source{display:block;width:100%;margin:14px 0;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px;font:13px/1.5 ui-monospace,monospace;color:var(--ink);resize:none;overflow-wrap:anywhere}
+    .hint{font-size:14px}.details{margin-top:22px;background:#eaf0e9}.details ul{padding-left:20px;margin-bottom:0}li{margin:7px 0}footer{color:var(--muted);font-size:13px;margin:30px 0 0}a:focus-visible,textarea:focus-visible{outline:3px solid #87ac96;outline-offset:4px}@media(max-width:700px){main{padding:28px 18px}.grid{grid-template-columns:1fr}section{padding:22px}}
+  </style>
+</head>
+<body><main>
+  <header><span class="mark" aria-hidden="true">W</span><div><strong>Werkraum.</strong><p>Alles an einem Ort.</p></div></header>
+  <span class="label">Offizielle Verteilung</span>
+  <h1>Neue Möglichkeiten für deinen Werkraum.</h1>
+  <p class="intro">Programmupdates für Windows und Mac und Erweiterungen für deine Projekte. Die Downloads sind öffentlich erreichbar. Werkraum prüft Signaturen und Prüfsummen vor der Übernahme.</p>
+  <nav class="buttons" aria-label="Downloads"><a class="button" href="https://github.com/Seele737/Werkraum-Updates/releases/latest">Aktuelle Version herunterladen</a><a class="button secondary" href="store/">Erweiterungen ansehen</a></nav>
+  <div class="grid">
+    <section><h2>Programmupdates</h2><p>Ab Werkraum 0.14.0 im Entwicklerbereich unter „Updates aus dem Internet“ diese Adresse einmal speichern:</p><textarea class="source" rows="3" readonly aria-label="Adresse der Update-Liste">https://seele737.github.io/Werkraum-Updates/updates.json</textarea><p class="hint">Automatische Suche ist optional. Du entscheidest, wann du ein Update herunterlädst und installierst.</p></section>
+    <section><h2>Erweiterungs-Store</h2><p>Im Store unter „Woher Erweiterungen kommen → Online-Store“ diese Adresse einmal speichern:</p><textarea class="source" rows="3" readonly aria-label="Adresse des Online-Stores">https://seele737.github.io/Werkraum-Updates/store/</textarea><p class="hint">Pakete werden bei Bedarf geladen. Bereits installierte Erweiterungen bleiben auch offline verfügbar.</p></section>
+  </div>
+  <section class="details"><h2>Welche Datei passt?</h2><ul><li><strong>Windows:</strong> Update-Datei mit <code>.wrup</code> für eine bestehende Installation, alternativ den Setup-Installer verwenden.</li><li><strong>Mac:</strong> <code>mac-arm64</code> für Apple-Chips, <code>mac-x64</code> für Intel. Ab Werkraum 0.10.3 wird die neue App aus dem signierten Bausatz auf dem Mac vorbereitet. Internet und Bauwerkzeuge sind erforderlich.</li><li><strong>Älterer Mac:</strong> Mac-Bausatz entpacken und <code>Werkraum-aktualisieren.command</code> öffnen. Die vorhandene App wird mit Sicherung ersetzt.</li><li><strong>Ohne Online-Store:</strong> Das separate Erweiterungen-ZIP enthält die signierten Pakete. Die Einrichtung steht in der Release-Beschreibung.</li></ul></section>
+  <footer>Kein GitHub-Konto oder Token zum Herunterladen nötig. Nutzerprojekte und Zugangsdaten bleiben außerhalb dieses Repositorys. <a href="https://github.com/Seele737/Werkraum-Updates/releases">Alle Versionen und Hinweise</a></footer>
+</main></body></html>
