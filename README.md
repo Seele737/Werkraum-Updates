@@ -1,23 +1,40 @@
 # Werkraum – Updates und Erweiterungen
 
-Dieses öffentliche Repository verteilt die veröffentlichten Werkraum-Versionen und signierten Erweiterungen. Die Entwicklung bleibt im privaten Repository Seele737/Werkraum. Es enthält keine Nutzerprojekte, Zugangsdaten oder privaten Signaturschlüssel.
+Dieses öffentliche Repository verteilt geprüfte Werkraum-Versionen und signierte Erweiterungen. Die Entwicklung in `Seele737/Werkraum` bleibt privat. Nutzerprojekte, Zugangsdaten und private Signaturschlüssel gehören nicht hierher.
 
-## Bezugsquellen
+- [Downloadseite](https://seele737.github.io/Werkraum-Updates/)
+- [Programmdateien und ältere Versionen](https://github.com/Seele737/Werkraum-Updates/releases)
+- [Erweiterungskatalog](https://seele737.github.io/Werkraum-Updates/store/)
 
-- Programmdateien: [GitHub Releases](https://github.com/Seele737/Werkraum-Updates/releases).
-- Online-Store für Werkraum: `https://raw.githubusercontent.com/Seele737/Werkraum-Updates/main/store/`
-- Signierte Update-Liste: `https://raw.githubusercontent.com/Seele737/Werkraum-Updates/main/updates.json`
+## Einmal in Werkraum einrichten
 
-Die Quellen werden erst freigegeben, sobald die zugehörigen Dateien vollständig veröffentlicht und geprüft sind. Zum Herunterladen ist keine GitHub-Anmeldung und kein Token nötig. Werkraum prüft Signaturen und Prüfsummen; eine neue Version wird nicht ungefragt installiert.
+Werkraum ab 0.14.0 kann beide Quellen verwenden:
 
-## Einrichtung in Werkraum ab 0.14.0
+**Store → Woher Erweiterungen kommen → Online-Store:**
 
-Im Store unter „Woher Erweiterungen kommen“ die Online-Store-Adresse speichern. Im Entwicklerbereich unter „Updates aus dem Internet“ die vollständige Adresse der signierten Update-Liste speichern. Die automatische Suche nach Programmupdates ist optional; Herunterladen und Installieren bleiben getrennte Schritte.
+```text
+https://seele737.github.io/Werkraum-Updates/store/
+```
 
-## Hinweise zum Mac
+**Entwicklerbereich → Updates aus dem Internet:**
 
-Die Mac-Update-Dateien sind signierte Bausätze, keine fertig beglaubigten DMGs. Werkraum ab 0.10.3 kann damit auf dem Mac eine neue App vorbereiten; Internet und Bauwerkzeuge sind erforderlich. Für ältere Installationen dient `Werkraum-aktualisieren.command` im Mac-Bausatz. Ein echter Mac-Gerätetest steht noch aus.
+```text
+https://seele737.github.io/Werkraum-Updates/updates.json
+```
 
-## Veröffentlichung
+Es ist keine GitHub-Anmeldung und kein Token im Programm nötig. Werkraum prüft die Signatur der Listen sowie Signaturen und Prüfsummen der Pakete. Die automatische Suche nach Programmupdates ist optional. Herunterladen und Installieren bleiben getrennte Schritte.
 
-Nur geprüfte, lokal signierte Verteilungsdateien veröffentlichen. Ein Release zunächst als Entwurf vollständig hochladen und prüfen, dann freigeben. Erst anschließend die signierte Update-Liste und den passenden Store gemeinsam aktualisieren. Vorhandene Release-Dateien nicht unter derselben Versionsnummer ersetzen.
+## Passende Datei wählen
+
+- Windows: `.wrup` für eine bestehende Installation oder `Werkraum-Setup-…exe` für eine Installation.
+- Mac mit Apple-Chip: `…mac-arm64.wrup`; Intel: `…mac-x64.wrup`. Werkraum ab 0.10.3 benötigt Internet und Bauwerkzeuge, um daraus auf dem Mac eine neue App vorzubereiten.
+- Älterer Mac oder erste Einrichtung: Mac-Bausatz entpacken und dessen Anleitung lesen. `Werkraum-aktualisieren.command` aktualisiert eine vorhandene App mit Sicherung.
+- Erweiterungen: aus dem Online-Store installieren oder die separate Erweiterungen-ZIP verwenden.
+
+Die Mac-Dateien sind signierte Bausätze, keine bei Apple beglaubigten fertigen DMGs. Gerätespezifische Einschränkungen stehen in den jeweiligen Release-Beschreibungen.
+
+## Veröffentlichungsverfahren
+
+Pakete werden im privaten Entwicklungsordner gebaut, geprüft und lokal signiert. Der private Signaturschlüssel bleibt dort. Ein Release zunächst als Entwurf vollständig hochladen und SHA-256-Prüfsummen abgleichen, dann freigeben. Erst danach Store und signierte `updates.json` aktualisieren. Eine veröffentlichte Versionsnummer nicht für andere Dateien wiederverwenden.
+
+GitHub Pages liefert den Zweig `main` aus `/` aus. `.nojekyll` verhindert Veränderungen an den Verteilungsdateien. Die großen Installer und Updates liegen in Releases, nicht in der Git-Historie. Direkte `raw.githubusercontent.com`-Adressen sind wegen des Text-Inhaltstyps für Werkraums Update-Liste ungeeignet.
