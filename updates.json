@@ -1,32 +1,33 @@
 {
   "format": 1,
   "keyId": "werkraum-2026-1",
-  "generatedAt": "2026-10-03T06:51:37.183Z",
+  "generatedAt": "2026-10-03T07:59:39.110Z",
   "updates": [
     {
-      "version": "0.14.0",
+      "version": "0.14.1",
       "platform": "win32",
       "arch": "x64",
-      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v0.14.0/Werkraum-Update-0.14.0.wrup",
-      "size": 112309733,
-      "sha256": "f8a09e62ae110d138f144d42067166c7ad107acfc7f9d3efe603d3e739062ee9"
+      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v0.14.1/Werkraum-Update-0.14.1.wrup",
+      "size": 112315976,
+      "sha256": "76eba7e47f92d53867f42787e7c067aa088a7d969da0c2ec3ddb7e24ccf103ec"
     },
     {
-      "version": "0.14.0",
+      "version": "0.14.1",
       "platform": "darwin",
       "arch": "arm64",
-      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v0.14.0/Werkraum-Update-0.14.0-mac-arm64.wrup",
-      "size": 1716783,
-      "sha256": "6ec3c83e3cf1c53c1fce506a04885990d8b74556e29dd3879b9686e3aaff0c59"
+      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v0.14.1/Werkraum-Update-0.14.1-mac-arm64.wrup",
+      "size": 1723835,
+      "sha256": "c85de18e0ae6f4afb709eb68a200b7b6493368ecb6b11fec74598f03a1e651e2"
     },
     {
-      "version": "0.14.0",
+      "version": "0.14.1",
       "platform": "darwin",
       "arch": "x64",
-      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v0.14.0/Werkraum-Update-0.14.0-mac-x64.wrup",
-      "size": 1716781,
-      "sha256": "edd8922da59803ae402758090bffe1d91381fad22cf23546937504d26f07655f"
+      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v0.14.1/Werkraum-Update-0.14.1-mac-x64.wrup",
+      "size": 1723833,
+      "sha256": "d5c0a96a79566daeb5d76849ca7e8fa6be966f98fb70690fd94ed922b4073477"
     }
   ],
-  "signature": "je2O0rnh79DTdymcl1viFubhZT579WqMHDtT5baGFTZ4SF8560t7LG/m3k12xXIB82zqczQ3zXeRpl6lliL5Aw=="
+  "signature": "3cjKGcmf7euvxkqrh/x8nW71+8A6xLa+UnY3+Ywj7Pygdzdr4F61QC/E9cbMTid6iYEfeCi9dt3DC0qrXWWBAg=="
 }
+
