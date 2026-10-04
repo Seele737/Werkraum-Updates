@@ -1,29 +1,30 @@
 {
   "format": 1,
   "keyId": "werkraum-2026-1",
-  "generatedAt": "2026-10-03T04:55:56.599Z",
+  "generatedAt": "2026-10-04T11:48:12.742Z",
   "packages": [
     {
       "id": "feeds",
-      "version": "1.0.0",
-      "file": "packages/feeds-1.0.0.wrx",
-      "size": 23758,
-      "sha256": "e9857548cf67ea7af60d8a087216b3db0c3d15b9c3ec61e51d047702c84e3c82",
+      "version": "1.1.0",
+      "file": "packages/feeds-1.1.0.wrx",
+      "size": 25097,
+      "sha256": "f9e41f47dfd6fe0b883b844926a67ce55247e35a3e950a4ee0f158ce791101c1",
       "manifest": {
         "schemaVersion": 2,
         "id": "feeds",
         "kind": "extension",
         "name": "Podcasts & Nachrichten",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "publisher": "Werkraum",
         "summary": "Nachrichtenseiten, Blogs und Podcasts über ihren Feed abonnieren: Neues landet von selbst im Projekt, zum Lesen, Anhören und Zusammenfassen.",
-        "description": "Füge die Adresse eines Feeds, eines Podcasts oder einfach einer Webseite ein, und Werkraum abonniert ihn im Projekt. Einmal in der Stunde sieht Werkraum von selbst nach Neuem, zeigt es als Liste mit Zusammenfassung und meldet es über die Glocke. Podcast-Folgen hörst du direkt an; ein kleiner Player läuft weiter, während du im Projekt arbeitest. Der Video- & Audio-Downloader holt eine Folge auf Wunsch als Datei ins Projekt. Einträge lassen sich als Notiz ablegen, einzeln oder für ein Abo von selbst, und dann mit „Abläufe“ von der KI zusammenfassen. Gelesenes und Ungelesenes merkt sich das Projekt, die Einträge erscheinen in der Suche über alle Projekte.",
+        "description": "Füge die Adresse eines Feeds, eines Podcasts oder einfach einer Webseite ein, und Werkraum abonniert ihn im Projekt. Einmal in der Stunde sieht Werkraum von selbst nach Neuem, zeigt es als Liste mit Zusammenfassung und meldet es über die Glocke. Podcast-Folgen hörst du direkt an; ein kleiner Player läuft weiter, während du im Projekt arbeitest. Der Video- & Audio-Downloader holt eine Folge auf Wunsch als Datei ins Projekt. Einträge lassen sich als Notiz ablegen, einzeln oder für ein Abo von selbst, und dann mit „Abläufe“ von der KI zusammenfassen. Gelesenes und Ungelesenes merkt sich das Projekt, die Einträge erscheinen in der Suche über alle Projekte. Suche lokal in Titel, Beschreibung, Autor und Quelle; filtere zusätzlich nach Audio und ungelesenen Einträgen.",
         "category": "medien",
         "tone": "subscriptions",
         "glyph": "rss",
         "featured": false,
         "stage": "stable",
         "highlights": [
+          "Gespeicherte Nachrichten und Podcast-Folgen durchsuchen",
           "Feeds (RSS, Atom) und Podcasts abonnieren, auch über die Adresse der Webseite",
           "Neues von selbst einmal in der Stunde, mit Meldung über die Glocke",
           "Podcast-Folgen anhören, der Player läuft beim Arbeiten weiter",
@@ -64,6 +65,13 @@
         "sourceUrl": "",
         "changelog": [
           {
+            "version": "1.1.0",
+            "date": "2026-10-04",
+            "notes": [
+              "Lokale Suche nach Titel, Beschreibung, Autor und Quelle; Audio- und Nachrichtenfilter."
+            ]
+          },
+          {
             "version": "1.0.0",
             "date": "2026-10-02",
             "notes": [
@@ -86,7 +94,7 @@
             "glyph": "rss"
           }
         ],
-        "minAppVersion": "0.11.0",
+        "minAppVersion": "0.19.0",
         "routes": [
           "feeds"
         ],
@@ -356,36 +364,35 @@
     },
     {
       "id": "parcels",
-      "version": "1.0.0",
-      "file": "packages/parcels-1.0.0.wrx",
-      "size": 23646,
-      "sha256": "fccbce59fed0f6299017a36a3457d826830cca2d7a6fabc6e686fd245a4813e1",
+      "version": "1.1.0",
+      "file": "packages/parcels-1.1.0.wrx",
+      "size": 29860,
+      "sha256": "5389e401f607828b3245ede0305a4115ff598c98a44b24e4c6f79a5fa26eff12",
       "manifest": {
         "schemaVersion": 2,
         "id": "parcels",
         "kind": "extension",
         "name": "Paketverfolgung",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "publisher": "Werkraum",
-        "summary": "Alle Sendungen an einem Ort: Für DHL und Hermes kommt der Status von selbst, mit Meldung, wenn ein Paket in Zustellung geht oder ankommt.",
-        "description": "Trage die Sendungsnummern deiner Bestellungen ein, und Werkraum zeigt alle Pakete in einer Liste. Für DHL und Hermes holt Werkraum den Status einmal in der Stunde von selbst: wo das Paket ist, den bisherigen Verlauf und, wenn der Dienst es nennt, das Zeitfenster der Zustellung. Über die Glocke erfährst du, wenn ein Paket unterwegs ist, in Zustellung geht, abholbereit ist oder angekommen ist. DPD, GLS, UPS, Deutsche Post und Amazon lassen Programme den Status nicht abfragen; ihre Sendungen stehen trotzdem in der Liste, mit einem Klick zur Verfolgungsseite im Browser und einem Haken für „Angekommen“. Den Paketdienst erkennt Werkraum meist an der Nummer. Die Sendungen liegen im Projekt, der Status verbraucht keine Sicherungsstände.",
+        "summary": "DHL und Hermes direkt verfolgen; mit eigenem 17TRACK-API-Zugang viele Paketdienste weltweit automatisch erkennen.",
+        "description": "Sendungen mit Status, Verlauf und Benachrichtigungen an einem Ort. DHL und Hermes funktionieren direkt. Optional verbindet ein eigener 17TRACK-API-Zugang viele Paketdienste weltweit mit automatischer Erkennung, auch DPD, GLS und UPS. Jede neue Nummer wird erst nach Bestätigung an 17TRACK übertragen. Neue Trackingdaten können einige Minuten brauchen; einzelne Dienste, Nummern oder Kontingente können den Abruf begrenzen. Zugang zuerst kostenlos ohne Probe-Sendung testen; mögliche Kosten und Kontingente gelten beim Anbieter. Schlüssel bleiben geschützt auf dem Gerät oder nur im Arbeitsspeicher, nie im Projekt. Ohne 17TRACK bleiben andere Dienste als Browser-Link verfügbar.",
         "category": "alltag",
         "tone": "notes",
         "glyph": "package",
         "featured": false,
         "stage": "stable",
         "highlights": [
-          "Alle Sendungen in einer Liste, mit Namen wie „Kopfhörer“ statt nur Nummern",
-          "DHL und Hermes: Status, Verlauf und Zeitfenster der Zustellung von selbst",
-          "Meldung über die Glocke: unterwegs, in Zustellung, abholbereit, angekommen",
-          "DPD, GLS, UPS, Deutsche Post, Amazon: ein Klick zur Verfolgungsseite",
-          "Der Paketdienst wird meist an der Nummer erkannt",
-          "Angekommenes abhaken und erledigte Sendungen auf einmal entfernen"
+          "17TRACK: viele weltweite Dienste automatisch erkennen",
+          "DHL und Hermes direkt ohne API-Schlüssel",
+          "API-Zugang testen, ohne Sendungen zu registrieren",
+          "Geräteschlüssel geschützt speichern oder nur diese Sitzung nutzen",
+          "Sendungen, Verlauf und Meldungen je Projekt"
         ],
         "permissions": [
           {
             "icon": "globe",
-            "text": "Fragt den Status deiner Sendungen bei DHL und Hermes ab: beim Hinzufügen, bei „Aktualisieren“ und, wenn eingeschaltet, einmal in der Stunde von selbst. Die Sendungsnummer geht nur an den Paketdienst"
+            "text": "Fragt DHL und Hermes direkt ab. Überträgt Sendungsnummern nur bei ausdrücklicher Auswahl und Bestätigung an 17TRACK; prüft dort danach den Status. Verbindungstest fragt nur das Kontingent ab."
           },
           {
             "icon": "bell",
@@ -394,13 +401,17 @@
           {
             "icon": "files",
             "text": "Speichert die Sendungen mit ihrem letzten Status im Projekt"
+          },
+          {
+            "icon": "lock",
+            "text": "Speichert einen 17TRACK-API-Schlüssel auf Wunsch im geschützten Schlüsselspeicher dieses Geräts; nicht im Projekt oder Export"
           }
         ],
         "requirements": [
-          "Braucht Werkraum 0.11 oder neuer",
+          "Werkraum 0.19 oder neuer",
           "Internetverbindung",
-          "Der Status kommt von selbst, solange Werkraum geöffnet ist",
-          "Automatischer Status nur für DHL und Hermes; andere Dienste wehren Programme ab"
+          "Optional: eigener 17TRACK-API-Zugang mit ausreichendem Kontingent; mögliche Kosten beim Anbieter",
+          "Automatischer Status solange Werkraum geöffnet ist; nicht alle Dienste oder Nummern verfügbar"
         ],
         "platforms": [
           "win32",
@@ -410,6 +421,13 @@
         "license": "Teil von Werkraum",
         "sourceUrl": "",
         "changelog": [
+          {
+            "version": "1.1.0",
+            "date": "2026-10-04",
+            "notes": [
+              "17TRACK-API v2.4: weltweite Erkennung, geschützter Geräteschlüssel und Verbindungstest ohne Registrierung."
+            ]
+          },
           {
             "version": "1.0.0",
             "date": "2026-10-02",
@@ -433,7 +451,7 @@
             "glyph": "package"
           }
         ],
-        "minAppVersion": "0.11.0",
+        "minAppVersion": "0.19.0",
         "routes": [
           "parcels"
         ],
@@ -986,25 +1004,26 @@
     },
     {
       "id": "weather",
-      "version": "1.0.0",
-      "file": "packages/weather-1.0.0.wrx",
-      "size": 22030,
-      "sha256": "c61ff44ce6ee3af81f7ae138fc4255b336b5b91b25f32ac66aef67aab4dcacfc",
+      "version": "1.1.0",
+      "file": "packages/weather-1.1.0.wrx",
+      "size": 24035,
+      "sha256": "dd164c9b17156b4335efad3f3731341fc46ca56a8bc0c29717ba9390d36eb519",
       "manifest": {
         "schemaVersion": 2,
         "id": "weather",
         "kind": "extension",
         "name": "Wetter & Garten",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "publisher": "Werkraum",
         "summary": "Das Wetter für deinen Ort, ohne Konto: sieben Tage, ein Gießhinweis für den Garten und eine Frostwarnung, die sich von selbst meldet.",
-        "description": "Gib deinen Ort oder deine Postleitzahl ein, und Werkraum zeigt das Wetter von jetzt und die nächsten sieben Tage: Temperatur, Regen, Wind und Sonnenzeiten. Für den Garten rechnet Werkraum aus Regen und Verdunstung der letzten Tage aus, ob gegossen werden sollte, und nennt die kommenden Frostnächte. Mit der Frostwarnung prüft Werkraum zweimal am Tag von selbst die nächsten drei Nächte und meldet sich, bevor es friert. Der Ort gilt für das Projekt, so kann jedes Projekt seinen eigenen haben: den Garten, den Schrebergarten oder das Urlaubsziel. Die Daten kommen von Open-Meteo, ein Konto oder ein Schlüssel ist nicht nötig.",
+        "description": "Gib deinen Ort oder deine Postleitzahl ein, und Werkraum zeigt das Wetter von jetzt und die nächsten sieben Tage: Temperatur, Regen, Wind und Sonnenzeiten. Für den Garten rechnet Werkraum aus Regen und Verdunstung der letzten Tage aus, ob gegossen werden sollte, und nennt die kommenden Frostnächte. Mit der Frostwarnung prüft Werkraum zweimal am Tag von selbst die nächsten drei Nächte und meldet sich, bevor es friert. Der Ort gilt für das Projekt, so kann jedes Projekt seinen eigenen haben: den Garten, den Schrebergarten oder das Urlaubsziel. Die Daten kommen von Open-Meteo, ein Konto oder ein Schlüssel ist nicht nötig. Auf Wunsch stehen ausgewählte Wetterwerte auch oben in der Hauptleiste.",
         "category": "alltag",
         "tone": "media",
         "glyph": "sun",
         "featured": false,
         "stage": "stable",
         "highlights": [
+          "Wetterwerte in der Hauptleiste selbst auswählen",
           "Wetter jetzt und sieben Tage im Voraus, für jeden Ort und jede deutsche Postleitzahl",
           "Gießhinweis aus Regen und Verdunstung der letzten drei Tage",
           "Frostnächte der kommenden Woche, auch Bodenfrost-Gefahr",
@@ -1043,6 +1062,13 @@
         "sourceUrl": "https://open-meteo.com/",
         "changelog": [
           {
+            "version": "1.1.0",
+            "date": "2026-10-04",
+            "notes": [
+              "Auswählbare Wetterwerte oben in der Hauptleiste, je Projekt ein- und ausschaltbar."
+            ]
+          },
+          {
             "version": "1.0.0",
             "date": "2026-10-02",
             "notes": [
@@ -1065,7 +1091,7 @@
             "glyph": "sun"
           }
         ],
-        "minAppVersion": "0.11.0",
+        "minAppVersion": "0.19.0",
         "routes": [
           "weather"
         ],
@@ -1736,5 +1762,5 @@
       }
     }
   ],
-  "signature": "nn7Di+6+yoDKRw/w5acRNGuA5wlcxbKcr6ZtVBcEDMmIWIctUZqEUU9h9hIlscdouo3K20m8bSTW3rUGcGupBg=="
+  "signature": "eMoI/t/HdaxyeTrKARXq7GPrbrbBBiZyBWwI8lXV4uhKfRwItmNgGlxWmK3x9QJZcVO9DderABjlO7Leum0eDg=="
 }

@@ -40,4 +40,3 @@ Die ältere Quelle `/updates.json` bleibt als Erstwechsel auf 0.14.1 erhalten; n
 Pakete werden im privaten Entwicklungsordner gebaut, geprüft und lokal signiert. Der private Signaturschlüssel bleibt dort. Ein Release zunächst als Entwurf vollständig hochladen und SHA-256-Prüfsummen abgleichen, dann freigeben. Erst danach Store und signierte `updates.json` aktualisieren. Eine veröffentlichte Versionsnummer nicht für andere Dateien wiederverwenden.
 
 GitHub Pages liefert den Zweig `main` aus `/` aus. `.nojekyll` verhindert Veränderungen an den Verteilungsdateien. Die großen Installer und Updates liegen in Releases, nicht in der Git-Historie. Direkte `raw.githubusercontent.com`-Adressen sind wegen des Text-Inhaltstyps für Werkraums Update-Liste ungeeignet.
-
