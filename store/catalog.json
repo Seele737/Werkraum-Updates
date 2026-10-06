@@ -1,7 +1,7 @@
 {
   "format": 1,
   "keyId": "werkraum-2026-1",
-  "generatedAt": "2026-10-04T11:48:12.742Z",
+  "generatedAt": "2026-10-05T18:47:19.543Z",
   "packages": [
     {
       "id": "feeds",
@@ -1762,5 +1762,5 @@
       }
     }
   ],
-  "signature": "eMoI/t/HdaxyeTrKARXq7GPrbrbBBiZyBWwI8lXV4uhKfRwItmNgGlxWmK3x9QJZcVO9DderABjlO7Leum0eDg=="
+  "signature": "OcrtvlK4hZIC0QHOyzqvhInZImINfsVwhjD6lgHvFaherUhOTHSdhmHBZ7G1FfepBWc7y9Y4PHFW4pPFY/HEBA=="
 }
