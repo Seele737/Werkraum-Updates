@@ -1,23 +1,23 @@
 {
   "format": 1,
   "keyId": "werkraum-2026-1",
-  "generatedAt": "2026-10-05T18:47:19.543Z",
+  "generatedAt": "2026-10-06T08:56:35.167Z",
   "packages": [
     {
       "id": "feeds",
-      "version": "1.1.0",
-      "file": "packages/feeds-1.1.0.wrx",
-      "size": 25097,
-      "sha256": "f9e41f47dfd6fe0b883b844926a67ce55247e35a3e950a4ee0f158ce791101c1",
+      "version": "1.2.0",
+      "file": "packages/feeds-1.2.0.wrx",
+      "size": 26243,
+      "sha256": "9931c95c67eba5b07be161c876f62bcd582afad3ee3ad67aa648feb693cc5510",
       "manifest": {
         "schemaVersion": 2,
         "id": "feeds",
         "kind": "extension",
         "name": "Podcasts & Nachrichten",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "publisher": "Werkraum",
         "summary": "Nachrichtenseiten, Blogs und Podcasts über ihren Feed abonnieren: Neues landet von selbst im Projekt, zum Lesen, Anhören und Zusammenfassen.",
-        "description": "Füge die Adresse eines Feeds, eines Podcasts oder einfach einer Webseite ein, und Werkraum abonniert ihn im Projekt. Einmal in der Stunde sieht Werkraum von selbst nach Neuem, zeigt es als Liste mit Zusammenfassung und meldet es über die Glocke. Podcast-Folgen hörst du direkt an; ein kleiner Player läuft weiter, während du im Projekt arbeitest. Der Video- & Audio-Downloader holt eine Folge auf Wunsch als Datei ins Projekt. Einträge lassen sich als Notiz ablegen, einzeln oder für ein Abo von selbst, und dann mit „Abläufe“ von der KI zusammenfassen. Gelesenes und Ungelesenes merkt sich das Projekt, die Einträge erscheinen in der Suche über alle Projekte. Suche lokal in Titel, Beschreibung, Autor und Quelle; filtere zusätzlich nach Audio und ungelesenen Einträgen.",
+        "description": "Füge die Adresse eines Feeds, eines Podcasts oder einfach einer Webseite ein, und Werkraum abonniert ihn im Projekt. Einmal in der Stunde sieht Werkraum von selbst nach Neuem, zeigt es als Liste mit Zusammenfassung und meldet es über die Glocke. Podcast-Folgen hörst du direkt an; ein kleiner Player läuft weiter, während du im Projekt arbeitest. Der Video- & Audio-Downloader holt eine Folge auf Wunsch als Datei ins Projekt. Einträge lassen sich als Notiz ablegen, einzeln oder für ein Abo von selbst, und dann mit „Abläufe“ von der KI zusammenfassen. Gelesenes und Ungelesenes merkt sich das Projekt, die Einträge erscheinen in der Suche über alle Projekte. Suche lokal in Titel, Beschreibung, Autor und Quelle; filtere zusätzlich nach Audio und ungelesenen Einträgen. Eine eigene Merkliste bewahrt bis zu 200 Artikel und Folgen auch nach dem Entfernen eines Abos. Texte und Adressen bleiben gespeichert; Audio und Webseiten werden nicht offline kopiert.",
         "category": "medien",
         "tone": "subscriptions",
         "glyph": "rss",
@@ -65,6 +65,13 @@
         "sourceUrl": "",
         "changelog": [
           {
+            "version": "1.2.0",
+            "date": "2026-10-06",
+            "notes": [
+              "Eigene dauerhafte Merkliste für Artikel und Podcast-Folgen."
+            ]
+          },
+          {
             "version": "1.1.0",
             "date": "2026-10-04",
             "notes": [
@@ -94,7 +101,7 @@
             "glyph": "rss"
           }
         ],
-        "minAppVersion": "0.19.0",
+        "minAppVersion": "0.22.0",
         "routes": [
           "feeds"
         ],
@@ -1004,19 +1011,19 @@
     },
     {
       "id": "weather",
-      "version": "1.1.0",
-      "file": "packages/weather-1.1.0.wrx",
-      "size": 24035,
-      "sha256": "dd164c9b17156b4335efad3f3731341fc46ca56a8bc0c29717ba9390d36eb519",
+      "version": "1.2.0",
+      "file": "packages/weather-1.2.0.wrx",
+      "size": 25085,
+      "sha256": "1e5e1e49662560087509feacd59118263e8049ebdf55d171077f57b8e711ee42",
       "manifest": {
         "schemaVersion": 2,
         "id": "weather",
         "kind": "extension",
         "name": "Wetter & Garten",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "publisher": "Werkraum",
         "summary": "Das Wetter für deinen Ort, ohne Konto: sieben Tage, ein Gießhinweis für den Garten und eine Frostwarnung, die sich von selbst meldet.",
-        "description": "Gib deinen Ort oder deine Postleitzahl ein, und Werkraum zeigt das Wetter von jetzt und die nächsten sieben Tage: Temperatur, Regen, Wind und Sonnenzeiten. Für den Garten rechnet Werkraum aus Regen und Verdunstung der letzten Tage aus, ob gegossen werden sollte, und nennt die kommenden Frostnächte. Mit der Frostwarnung prüft Werkraum zweimal am Tag von selbst die nächsten drei Nächte und meldet sich, bevor es friert. Der Ort gilt für das Projekt, so kann jedes Projekt seinen eigenen haben: den Garten, den Schrebergarten oder das Urlaubsziel. Die Daten kommen von Open-Meteo, ein Konto oder ein Schlüssel ist nicht nötig. Auf Wunsch stehen ausgewählte Wetterwerte auch oben in der Hauptleiste.",
+        "description": "Gib deinen Ort oder deine Postleitzahl ein, und Werkraum zeigt das Wetter von jetzt und die nächsten sieben Tage: Temperatur, Regen, Wind und Sonnenzeiten. Für den Garten rechnet Werkraum aus Regen und Verdunstung der letzten Tage aus, ob gegossen werden sollte, und nennt die kommenden Frostnächte. Mit der Frostwarnung prüft Werkraum zweimal am Tag von selbst die nächsten drei Nächte und meldet sich, bevor es friert. Der Ort gilt für das Projekt, so kann jedes Projekt seinen eigenen haben: den Garten, den Schrebergarten oder das Urlaubsziel. Die Daten kommen von Open-Meteo, ein Konto oder ein Schlüssel ist nicht nötig. Auf Wunsch stehen ausgewählte Wetterwerte auch oben in der Hauptleiste. Vergleiche bis zu vier Orte aus entsperrten Wetterprojekten mit Temperatur, Regen und Wind nebeneinander.",
         "category": "alltag",
         "tone": "media",
         "glyph": "sun",
@@ -1062,6 +1069,13 @@
         "sourceUrl": "https://open-meteo.com/",
         "changelog": [
           {
+            "version": "1.2.0",
+            "date": "2026-10-06",
+            "notes": [
+              "Wetter mehrerer Projektorte nebeneinander vergleichen, mit getrennten Abrufzeiten und Fehlermeldungen."
+            ]
+          },
+          {
             "version": "1.1.0",
             "date": "2026-10-04",
             "notes": [
@@ -1091,7 +1105,7 @@
             "glyph": "sun"
           }
         ],
-        "minAppVersion": "0.19.0",
+        "minAppVersion": "0.22.0",
         "routes": [
           "weather"
         ],
@@ -1762,5 +1776,5 @@
       }
     }
   ],
-  "signature": "OcrtvlK4hZIC0QHOyzqvhInZImINfsVwhjD6lgHvFaherUhOTHSdhmHBZ7G1FfepBWc7y9Y4PHFW4pPFY/HEBA=="
+  "signature": "305QlXeE06nZsgIlT0zRQbFEtepCiBPALaoHUEwCvGm9FmFrq6UCyRwPw+TVin9nq5wkXY/MwI/BJ2hUuw7wCg=="
 }
