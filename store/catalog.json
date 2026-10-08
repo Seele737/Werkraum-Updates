@@ -1,7 +1,7 @@
 {
   "format": 1,
   "keyId": "werkraum-2026-1",
-  "generatedAt": "2026-10-06T08:56:35.167Z",
+  "generatedAt": "2026-10-08T07:10:19.339Z",
   "packages": [
     {
       "id": "feeds",
@@ -371,16 +371,16 @@
     },
     {
       "id": "parcels",
-      "version": "1.1.0",
-      "file": "packages/parcels-1.1.0.wrx",
-      "size": 29860,
-      "sha256": "5389e401f607828b3245ede0305a4115ff598c98a44b24e4c6f79a5fa26eff12",
+      "version": "1.2.0",
+      "file": "packages/parcels-1.2.0.wrx",
+      "size": 31313,
+      "sha256": "32a4d9e92cb8d292c4b4c061d8d19c915f60069b0fcd929b10b56a1db71be8f4",
       "manifest": {
         "schemaVersion": 2,
         "id": "parcels",
         "kind": "extension",
         "name": "Paketverfolgung",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "publisher": "Werkraum",
         "summary": "DHL und Hermes direkt verfolgen; mit eigenem 17TRACK-API-Zugang viele Paketdienste weltweit automatisch erkennen.",
         "description": "Sendungen mit Status, Verlauf und Benachrichtigungen an einem Ort. DHL und Hermes funktionieren direkt. Optional verbindet ein eigener 17TRACK-API-Zugang viele Paketdienste weltweit mit automatischer Erkennung, auch DPD, GLS und UPS. Jede neue Nummer wird erst nach Bestätigung an 17TRACK übertragen. Neue Trackingdaten können einige Minuten brauchen; einzelne Dienste, Nummern oder Kontingente können den Abruf begrenzen. Zugang zuerst kostenlos ohne Probe-Sendung testen; mögliche Kosten und Kontingente gelten beim Anbieter. Schlüssel bleiben geschützt auf dem Gerät oder nur im Arbeitsspeicher, nie im Projekt. Ohne 17TRACK bleiben andere Dienste als Browser-Link verfügbar.",
@@ -394,7 +394,8 @@
           "DHL und Hermes direkt ohne API-Schlüssel",
           "API-Zugang testen, ohne Sendungen zu registrieren",
           "Geräteschlüssel geschützt speichern oder nur diese Sitzung nutzen",
-          "Sendungen, Verlauf und Meldungen je Projekt"
+          "Sendungen, Verlauf und Meldungen je Projekt",
+          "Ausgewählte Sendungen mit letztem Status als CSV exportieren"
         ],
         "permissions": [
           {
@@ -428,6 +429,13 @@
         "license": "Teil von Werkraum",
         "sourceUrl": "",
         "changelog": [
+          {
+            "version": "1.2.0",
+            "date": "2026-10-08",
+            "notes": [
+              "CSV-Export ausgewählter Sendungen; letzter gespeicherter Status, keine neue Online-Abfrage; Tabellenformeln entschärft."
+            ]
+          },
           {
             "version": "1.1.0",
             "date": "2026-10-04",
@@ -1776,5 +1784,5 @@
       }
     }
   ],
-  "signature": "305QlXeE06nZsgIlT0zRQbFEtepCiBPALaoHUEwCvGm9FmFrq6UCyRwPw+TVin9nq5wkXY/MwI/BJ2hUuw7wCg=="
+  "signature": "HCgdXAldt0WAbjxLRx0zsQLTTIK9aB5akH/gCv8jI0dgQnzxEbEcmgZu44ry2HC1RU7y+WdKw1Qgo9iiElkICQ=="
 }
