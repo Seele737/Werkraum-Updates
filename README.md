@@ -16,7 +16,7 @@ Ab Werkraum 0.14.1 sind beide Quellen voreingestellt. Neue Einstellungen prüfen
 https://seele737.github.io/Werkraum-Updates/store/
 ```
 
-**Entwicklerbereich → Updates aus dem Internet:**
+**Einstellungen → Programmupdates → Updates aus dem Internet:**
 
 ```text
 https://seele737.github.io/Werkraum-Updates/current/updates.json
