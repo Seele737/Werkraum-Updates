@@ -1,7 +1,7 @@
 {
   "format": 1,
   "keyId": "werkraum-2026-1",
-  "generatedAt": "2026-10-08T07:10:19.339Z",
+  "generatedAt": "2026-10-08T09:22:22.986Z",
   "packages": [
     {
       "id": "feeds",
@@ -811,16 +811,16 @@
     },
     {
       "id": "translate",
-      "version": "1.0.2",
-      "file": "packages/translate-1.0.2.wrx",
-      "size": 22363,
-      "sha256": "d6f62a396fb71995922a00d19387301c876f76535c0bf47223c5b791f499305f",
+      "version": "1.0.3",
+      "file": "packages/translate-1.0.3.wrx",
+      "size": 22727,
+      "sha256": "30f312f0c32424e41df4daae9bc3401217675ffb8422c39ed1cf7a7f7db3dbcb",
       "manifest": {
         "schemaVersion": 2,
         "id": "translate",
         "kind": "extension",
         "name": "Übersetzer",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "publisher": "Werkraum",
         "summary": "Texte, Untertitel und PDFs in andere Sprachen übersetzen: mit der lokalen KI auf diesem Rechner, ohne Internet und ohne Konto.",
         "description": "Der Übersetzer arbeitet mit der lokalen KI, die in Werkraum eingebaut ist: Nichts verlässt den Rechner. Tippe einen Text ein oder wähle eine Datei des Projekts, such die Zielsprache aus, und Werkraum übersetzt im Hintergrund, Stück für Stück, mit Fortschritt und Abbruch. Untertitel (SRT, VTT) behalten ihre Zeiten: Aus den englischen Untertiteln eines Videos werden deutsche, als neue Datei im Projekt. Textdateien und PDFs mit Text werden zu einer übersetzten Textdatei. Das Ergebnis von eingetipptem Text lässt sich kopieren oder als Notiz ablegen. Dateien eines Projekts liest die KI nur, wenn das Projekt für die KI freigegeben ist. Wie gut und wie schnell übersetzt wird, hängt vom gewählten Modell und vom Rechner ab; kleine Modelle übersetzen Alltagstexte brauchbar, aber nicht fehlerfrei.",
@@ -868,6 +868,13 @@
         "license": "Teil von Werkraum",
         "sourceUrl": "",
         "changelog": [
+          {
+            "version": "1.0.3",
+            "date": "2026-10-08",
+            "notes": [
+              "Fehlgeschlagene und abgebrochene Aufträge in der gemeinsamen Auftragsübersicht gezielt wiederholen."
+            ]
+          },
           {
             "version": "1.0.2",
             "date": "2026-10-03",
@@ -930,16 +937,16 @@
     },
     {
       "id": "video-tools",
-      "version": "1.0.0",
-      "file": "packages/video-tools-1.0.0.wrx",
-      "size": 11718,
-      "sha256": "c19b49b898629e77131962ea0c59a42797ef3d0ddbb07f066afacc263b585e06",
+      "version": "1.1.0",
+      "file": "packages/video-tools-1.1.0.wrx",
+      "size": 12349,
+      "sha256": "1b94cf02db00c62357bb96e436fd5ffd087c793897e25f94b7158e05dc8540f5",
       "manifest": {
         "schemaVersion": 2,
         "id": "video-tools",
         "kind": "extension",
         "name": "Video-Werkzeug",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "publisher": "Werkraum",
         "summary": "Lokale Videos schneiden, Ton als MP3 speichern, MP4 erzeugen, fürs Handy verkleinern und Kapitel einzeln speichern.",
         "description": "Benötigt den aktuellen eingerichteten Video- & Audio-Downloader für das vorhandene ffmpeg. Originaldateien bleiben erhalten. Aufgaben werden nacheinander lokal verarbeitet, sind abbrechbar und erzeugen neue Projektdateien. Keine Anmeldung oder Cloud. Gesprochene Wörter aus Video- und Audiodateien bis 20 Minuten lokal als SRT erkennen: Spracheingabe unter KI → Sprache einrichten und Projekt für KI freigeben. Zeitblöcke bis eine Minute, keine Analyse der Bildinhalte oder Geräusche.",
@@ -973,6 +980,13 @@
         "license": "Teil von Werkraum",
         "sourceUrl": "",
         "changelog": [
+          {
+            "version": "1.1.0",
+            "date": "2026-10-08",
+            "notes": [
+              "Fehlgeschlagene und abgebrochene Aufträge in der gemeinsamen Auftragsübersicht gezielt wiederholen."
+            ]
+          },
           {
             "version": "1.0.0",
             "date": "2026-10-03",
@@ -1784,5 +1798,5 @@
       }
     }
   ],
-  "signature": "HCgdXAldt0WAbjxLRx0zsQLTTIK9aB5akH/gCv8jI0dgQnzxEbEcmgZu44ry2HC1RU7y+WdKw1Qgo9iiElkICQ=="
+  "signature": "xsmiqLGmmwt+6DotgJWyOsvuN1IVSJGIE0U18CGtFH/Jy+97ezsyaBAGXmY1I1f1oH92JcHj/Ji1AG9b4youDA=="
 }
