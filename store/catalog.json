@@ -1,7 +1,7 @@
 {
   "format": 1,
   "keyId": "werkraum-2026-1",
-  "generatedAt": "2026-10-11T10:11:34.900Z",
+  "generatedAt": "2026-10-11T11:25:22.823Z",
   "packages": [
     {
       "id": "feeds",
@@ -811,16 +811,16 @@
     },
     {
       "id": "stream-window",
-      "version": "1.0.0",
-      "file": "packages/stream-window-1.0.0.wrx",
-      "size": 7570,
-      "sha256": "9bec0a094c8caf2fdb3b4f399d5c58aee0b097a181fa7884ee0d5f0cda82dba3",
+      "version": "1.0.1",
+      "file": "packages/stream-window-1.0.1.wrx",
+      "size": 7695,
+      "sha256": "a3814f9c63c1323418ec33b73a58a8adf87bce46a4571cdcf7e4e03fe6b74cc4",
       "manifest": {
         "schemaVersion": 2,
         "id": "stream-window",
         "kind": "extension",
         "name": "Streamfenster",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "publisher": "Werkraum",
         "summary": "Twitch und direkte Videos ansehen: eigenes schwebendes Desktopfenster oder Bild-in-Bild bei unterstützten Videos.",
         "description": "Ohne Chat und Downloads. Windows und Mac: eigenes verschiebbares, skalierbares Fenster, immer im Vordergrund. Twitch verwendet den offiziellen Popout-Player. Direkte HTTP-/HTTPS-Videoadressen laufen im Video-Player; MP4/WebM/OGV/MOV/M4V nach Codec-Unterstützung, HLS nur bei nativer Browserunterstützung. Auf Handys ist Bild-in-Bild vom Browser und System abhängig; Twitch öffnet den offiziellen Player, da der unverschlüsselte WLAN-Zugang die Twitch-Einbettung nicht erfüllt. Keine Garantie für Twitch-Bild-in-Bild auf jedem Gerät. Adressen werden nicht gespeichert. Webseitenlinks anderer Anbieter sind noch nicht unterstützt.",
@@ -842,7 +842,7 @@
           }
         ],
         "requirements": [
-          "Werkraum 1.8 oder neuer für das Desktopfenster",
+          "Werkraum 1.8.1 oder neuer für das korrigierte Desktopfenster",
           "Internet und vom Browser unterstützter Codec",
           "Handy: systemabhängiges Bild-in-Bild; Twitch über offiziellen Player"
         ],
@@ -854,6 +854,13 @@
         "license": "Teil von Werkraum",
         "sourceUrl": "",
         "changelog": [
+          {
+            "version": "1.0.1",
+            "date": "2026-10-11",
+            "notes": [
+              "Twitch-Player-Adresse korrigiert: kein Zeitmaschinen-Fehler mehr beim Öffnen."
+            ]
+          },
           {
             "version": "1.0.0",
             "date": "2026-10-11",
@@ -875,7 +882,7 @@
             "glyph": "play"
           }
         ],
-        "minAppVersion": "1.8.0",
+        "minAppVersion": "1.8.1",
         "routes": [
           "stream-window"
         ],
@@ -1887,5 +1894,5 @@
       }
     }
   ],
-  "signature": "+UgD4v5QL3zkBz0vwX1Jkmq8U8DPXZkVjB8vVhl424KR1cMhVdpybGhHA3mmLfKY8TLxfQwF1rUiyp2EQiDcDg=="
+  "signature": "jg5dk2DE7cnlGrRwdiKCvzaoCi4AQrMMxzgT43SxXG+bL6XQXctfLB6/gzoqCbbYHrFSqnzATxHzhn81fGe2AQ=="
 }
