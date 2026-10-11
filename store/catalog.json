@@ -1,7 +1,7 @@
 {
   "format": 1,
   "keyId": "werkraum-2026-1",
-  "generatedAt": "2026-10-08T09:22:22.986Z",
+  "generatedAt": "2026-10-11T10:11:34.900Z",
   "packages": [
     {
       "id": "feeds",
@@ -806,6 +806,95 @@
           "file": "assets/recipes/banner.svg",
           "size": 3149,
           "sha256": "3ab234413ab08f4242a8ab331d19bf58c4f50f054180288b92e6cf350019744b"
+        }
+      }
+    },
+    {
+      "id": "stream-window",
+      "version": "1.0.0",
+      "file": "packages/stream-window-1.0.0.wrx",
+      "size": 7570,
+      "sha256": "9bec0a094c8caf2fdb3b4f399d5c58aee0b097a181fa7884ee0d5f0cda82dba3",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "stream-window",
+        "kind": "extension",
+        "name": "Streamfenster",
+        "version": "1.0.0",
+        "publisher": "Werkraum",
+        "summary": "Twitch und direkte Videos ansehen: eigenes schwebendes Desktopfenster oder Bild-in-Bild bei unterstützten Videos.",
+        "description": "Ohne Chat und Downloads. Windows und Mac: eigenes verschiebbares, skalierbares Fenster, immer im Vordergrund. Twitch verwendet den offiziellen Popout-Player. Direkte HTTP-/HTTPS-Videoadressen laufen im Video-Player; MP4/WebM/OGV/MOV/M4V nach Codec-Unterstützung, HLS nur bei nativer Browserunterstützung. Auf Handys ist Bild-in-Bild vom Browser und System abhängig; Twitch öffnet den offiziellen Player, da der unverschlüsselte WLAN-Zugang die Twitch-Einbettung nicht erfüllt. Keine Garantie für Twitch-Bild-in-Bild auf jedem Gerät. Adressen werden nicht gespeichert. Webseitenlinks anderer Anbieter sind noch nicht unterstützt.",
+        "category": "medien",
+        "tone": "media",
+        "glyph": "play",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Twitch-Kanallink erkennen",
+          "Eigenes Desktopfenster im Vordergrund",
+          "Direkte Videos mit Geräte-Bild-in-Bild",
+          "Keine zusätzliche Laufzeit oder Downloads"
+        ],
+        "permissions": [
+          {
+            "icon": "globe",
+            "text": "Verbindet zur eingegebenen öffentlichen Adresse und zum offiziellen Twitch-Player. Anbieter sehen deine IP-Adresse. Keine Zugangsdaten oder Adressen im Projekt."
+          }
+        ],
+        "requirements": [
+          "Werkraum 1.8 oder neuer für das Desktopfenster",
+          "Internet und vom Browser unterstützter Codec",
+          "Handy: systemabhängiges Bild-in-Bild; Twitch über offiziellen Player"
+        ],
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "license": "Teil von Werkraum",
+        "sourceUrl": "",
+        "changelog": [
+          {
+            "version": "1.0.0",
+            "date": "2026-10-11",
+            "notes": [
+              "Erste Version: Twitch und direkte Videos, Desktopfenster und unterstütztes Video-Bild-in-Bild."
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": "ui.css",
+        "tabs": [
+          {
+            "id": "stream-window",
+            "label": "Streamfenster",
+            "glyph": "play"
+          }
+        ],
+        "minAppVersion": "1.8.0",
+        "routes": [
+          "stream-window"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/stream-window/icon.svg",
+          "size": 430,
+          "sha256": "7e15cb32c3345a05dbc85b5b97d59ceedea7ed5eb795549162fa5c0b9cb3ba7d"
+        },
+        "banner": {
+          "file": "assets/stream-window/banner.svg",
+          "size": 433,
+          "sha256": "2d3f9c3d5a2c881628a4de7787b6725728a47cd21ac77c4eb9ab1ddc5a00942a"
         }
       }
     },
@@ -1798,5 +1887,5 @@
       }
     }
   ],
-  "signature": "xsmiqLGmmwt+6DotgJWyOsvuN1IVSJGIE0U18CGtFH/Jy+97ezsyaBAGXmY1I1f1oH92JcHj/Ji1AG9b4youDA=="
+  "signature": "+UgD4v5QL3zkBz0vwX1Jkmq8U8DPXZkVjB8vVhl424KR1cMhVdpybGhHA3mmLfKY8TLxfQwF1rUiyp2EQiDcDg=="
 }
