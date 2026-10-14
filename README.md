@@ -22,7 +22,11 @@ https://seele737.github.io/Werkraum-Updates/store/
 https://seele737.github.io/Werkraum-Updates/current/updates.json
 ```
 
-Es ist keine GitHub-Anmeldung und kein Token im Programm nötig. Werkraum prüft die Signatur der Listen sowie Signaturen und Prüfsummen der Pakete. Die automatische Suche nach Programmupdates ist optional. Herunterladen und Installieren bleiben getrennte Schritte.
+Es ist keine GitHub-Anmeldung und kein Token im Programm nötig. Werkraum prüft die Signatur der Listen sowie Signaturen und Prüfsummen der Pakete. Die automatische Suche nach Programmupdates ist optional. Ohne „Updates automatisch durchführen“ startest du Download und Installation selbst; mit diesem ausdrücklich eingeschalteten Schalter wartet Werkraum auf eine sichere Arbeitspause.
+
+Neue kompatible Apps und App-Updates werden unabhängig vom Hauptprogramm aus dem Store angeboten. Eine App, die neue Kernfunktionen benötigt, nennt ihre Mindestversion. Bereits veröffentlichte Paketversionen bleiben unverändert erhalten; Hintergrundaufträge überschreiben keine zwischenzeitlich installierte neuere App.
+
+Werkraum Studio 2.0 bringt einen anpassbaren Arbeitsplatz, neue Navigation und Animationen, Projektschlagwörter, eine Dateiimportvorschau mit Inhaltsvergleich und übertragbare Darstellungseinstellungen. Der Web-App-/iPhone-Ausbauplan steht unter Entwicklung; die Handyoberfläche ist weiterhin mit dem laufenden Rechner verbunden.
 
 ## Passende Datei wählen
 
