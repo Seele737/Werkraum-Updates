@@ -1,7 +1,7 @@
 {
   "format": 1,
   "keyId": "werkraum-2026-1",
-  "generatedAt": "2026-10-11T11:25:22.823Z",
+  "generatedAt": "2026-10-14T19:01:49.334Z",
   "packages": [
     {
       "id": "feeds",
@@ -284,22 +284,22 @@
     },
     {
       "id": "nas-folders",
-      "version": "1.0.0",
-      "file": "packages/nas-folders-1.0.0.wrx",
-      "size": 10346,
-      "sha256": "643bf404d01913b4890ef21cfca27f467c9974b8f6c044d98e605ef5a02a4c46",
+      "version": "1.0.1",
+      "file": "packages/nas-folders-1.0.1.wrx",
+      "size": 11049,
+      "sha256": "873a59582fc6d9f2f7a4af1c67c28464dd4051f2522bae463cf5b36b251358c8",
       "manifest": {
         "schemaVersion": 2,
         "id": "nas-folders",
         "kind": "extension",
         "name": "Synology & NAS-Ordner",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "publisher": "Werkraum",
         "summary": "Bereits eingebundene NAS-Ordner durchsehen, ausgewählte Dateien ins Projekt holen und Projektdateien auf dem NAS speichern.",
         "description": "NAS zuerst im Finder oder Explorer als Netzwerkordner verbinden. Freigabe je Projekt und Rechner, standardmäßig schreibgeschützt. Schreiben muss ausdrücklich erlaubt werden; vorhandene Dateien werden niemals überschrieben. Durchsehen erzeugt keine Kopien, Dateien ins Projekt holen und auf das NAS speichern sind bewusste Aktionen. Keine automatische Synchronisation oder direkte Synology-Anmeldung. Verbindungen werden im geschützten Profil des Rechners gespeichert; ohne Schlüsselspeicher bleiben sie nur bis zum Beenden.",
         "category": "verknuepfungen",
         "tone": "link",
-        "glyph": "files",
+        "glyph": "server",
         "featured": false,
         "stage": "stable",
         "highlights": [
@@ -325,6 +325,13 @@
         "license": "Teil von Werkraum",
         "sourceUrl": "",
         "changelog": [
+          {
+            "version": "1.0.1",
+            "date": "2026-10-14",
+            "notes": [
+              "Eigenes gestaltetes App-Symbol im Werkraum-Stil; passendes kompaktes Symbol in Projekten und der App-Sammlung. Funktionen und gespeicherte Inhalte unverändert."
+            ]
+          },
           {
             "version": "1.0.0",
             "date": "2026-10-03",
@@ -359,8 +366,8 @@
       "assets": {
         "icon": {
           "file": "assets/nas-folders/icon.svg",
-          "size": 293,
-          "sha256": "ab2a9fe5436954909cea84f48e0471751a9d8d4f4b9d1bef1f5d453ecb27e93e"
+          "size": 1948,
+          "sha256": "d183f789bcb508dd908f823a606390501e333702818571c947f92d09c600da3e"
         },
         "banner": {
           "file": "assets/nas-folders/banner.svg",
@@ -1033,22 +1040,22 @@
     },
     {
       "id": "video-tools",
-      "version": "1.1.0",
-      "file": "packages/video-tools-1.1.0.wrx",
-      "size": 12349,
-      "sha256": "1b94cf02db00c62357bb96e436fd5ffd087c793897e25f94b7158e05dc8540f5",
+      "version": "1.1.1",
+      "file": "packages/video-tools-1.1.1.wrx",
+      "size": 13007,
+      "sha256": "6b6ddfde1ee8f45d2a014ea017a1ed0f34ff8b203a062c53e470c8b43f09b4d4",
       "manifest": {
         "schemaVersion": 2,
         "id": "video-tools",
         "kind": "extension",
         "name": "Video-Werkzeug",
-        "version": "1.1.0",
+        "version": "1.1.1",
         "publisher": "Werkraum",
         "summary": "Lokale Videos schneiden, Ton als MP3 speichern, MP4 erzeugen, fürs Handy verkleinern und Kapitel einzeln speichern.",
         "description": "Benötigt den aktuellen eingerichteten Video- & Audio-Downloader für das vorhandene ffmpeg. Originaldateien bleiben erhalten. Aufgaben werden nacheinander lokal verarbeitet, sind abbrechbar und erzeugen neue Projektdateien. Keine Anmeldung oder Cloud. Gesprochene Wörter aus Video- und Audiodateien bis 20 Minuten lokal als SRT erkennen: Spracheingabe unter KI → Sprache einrichten und Projekt für KI freigeben. Zeitblöcke bis eine Minute, keine Analyse der Bildinhalte oder Geräusche.",
         "category": "medien",
         "tone": "subscriptions",
-        "glyph": "play",
+        "glyph": "video",
         "featured": false,
         "stage": "stable",
         "highlights": [
@@ -1076,6 +1083,13 @@
         "license": "Teil von Werkraum",
         "sourceUrl": "",
         "changelog": [
+          {
+            "version": "1.1.1",
+            "date": "2026-10-14",
+            "notes": [
+              "Eigenes gestaltetes App-Symbol im Werkraum-Stil; passendes kompaktes Symbol in Projekten und der App-Sammlung. Funktionen und gespeicherte Inhalte unverändert."
+            ]
+          },
           {
             "version": "1.1.0",
             "date": "2026-10-08",
@@ -1117,8 +1131,8 @@
       "assets": {
         "icon": {
           "file": "assets/video-tools/icon.svg",
-          "size": 297,
-          "sha256": "50b8dbcadfc914fac71c9bb999c48029c1ba678641cbafcbdab67e798cd2c014"
+          "size": 2188,
+          "sha256": "620b6b167676bce3de25ceb728d41774a8bc67bdb9b6025c835b418cd32dcf91"
         },
         "banner": {
           "file": "assets/video-tools/banner.svg",
@@ -1894,5 +1908,5 @@
       }
     }
   ],
-  "signature": "jg5dk2DE7cnlGrRwdiKCvzaoCi4AQrMMxzgT43SxXG+bL6XQXctfLB6/gzoqCbbYHrFSqnzATxHzhn81fGe2AQ=="
+  "signature": "nHnV2PaGzeLmJ4Zl26in8Dj4pdyCIb6p3Zgd8bLRImF/if5FyCf787VY1tVOc+Jh9ze5MzAy93e3+OOpsyrMDw=="
 }
