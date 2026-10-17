@@ -8,6 +8,8 @@ Dieses öffentliche Repository verteilt geprüfte Werkraum-Versionen und signier
 
 ## In Werkraum verwenden
 
+Werkraum 2.4.0 ergänzt drei gemeinsame Gesprächsarten in normalen Chats, Projekten und Rollenspielen. Lokale Spracheingabe mit prüfbarem Text und automatische Sprachausgabe sind unabhängig vom Chatmodell. Sechs getrennt herunterladbare Stimmen mit Hörprobe, Sprache, Größe und Lizenz; neu Eva, Ramona und Ryan (Englisch). Keine Mikrofonaufnahme und kein Stimmen-Download ohne bewusste Aktion. Mac-Erkennung benötigt whisper.cpp, Apple-Chip-Piper Rosetta; Handy-Mikrofone einen sicheren Browserkontext.
+
 Werkraum 2.3.0 ergänzt fünf gezielt herunterladbare lokale Rollenspielmodelle mit Hardwareeinschätzung: Huihui Qwen3 1,7B (abliterated/uncensored), Huihui Qwen3 4B Instruct 2507 (abliterated/uncensored), Stheno 3.2 8B (SFW-/NSFW-Finetuning, nicht kommerziell), Dolphin 3.0 8B (uncensored) und NemoMix Unleashed 12B (RP-Merge ohne belegte Uncensored-Zusage). Originalkarten, Lizenzen und Downloadquellen sind direkt in der Auswahl verlinkt. Speicher und Tempo werden für den ausführenden Rechner geschätzt; kein Modell garantiert grenzenlose Antworten. Gewichte werden separat nur auf Nutzerklick geladen; das Programmupdate enthält keine Modellgewichte.
 
 Werkraum 2.2.0 bietet eine ausdrücklich aktivierte automatische private GitHub-Sicherung neuer Wünsche. Jede Aufgabe zeigt einen Beleg für die zuletzt übertragene Fassung und ihre Ergänzungen. „Nur lokal“ bleibt je Wunsch möglich; alte Einträge werden nicht rückwirkend geteilt. Einrichtung und Anmeldung erfolgen je Rechner. Private Issues sind keine Ende-zu-Ende-Verschlüsselung.
