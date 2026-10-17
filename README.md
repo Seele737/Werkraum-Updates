@@ -8,6 +8,8 @@ Dieses öffentliche Repository verteilt geprüfte Werkraum-Versionen und signier
 
 ## In Werkraum verwenden
 
+Werkraum 2.1.0 ergänzt KI → Rollenspiel: 16 anpassbare Szenarien, acht Figurenprofile und eigene lokale Geschichten. Anbieter, Modell und Spielregeln gelten je Geschichte; Projektdateien und Werkzeuge bleiben außerhalb des Rollenspiels. Lokale Speicherung und JSON-Exporte sind unverschlüsselt. Ein lokales Modell muss vorher installiert sein; das gekoppelte Handy nutzt weiterhin den Rechner.
+
 Ab Werkraum 0.14.1 sind beide Quellen voreingestellt. Neue Einstellungen prüfen beim Start und alle sechs Stunden nach Programmupdates. Eigene Quellen und deaktivierte Suche bleiben erhalten. Die Quellen lassen sich im Programm ändern:
 
 **Store → Woher Erweiterungen kommen → Online-Store:**
