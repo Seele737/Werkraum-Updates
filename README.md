@@ -8,6 +8,8 @@ Dieses öffentliche Repository verteilt geprüfte Werkraum-Versionen und signier
 
 ## In Werkraum verwenden
 
+Werkraum 2.6.0 bringt den ersten nutzbaren Begleiterbereich: eigene Persönlichkeiten, lokale Modellbindung und mehrere getrennte Gespräche. Anbieter/Modell/Profilstand an Antworten, Kopie ohne Verlauf, Archiv/Wiederherstellung, gemeinsame Sprache. Dauerhafte Erinnerungen, individuelle Figurenstimmen, KI-Teams, Geräte und Telegram bleiben offen.
+
 Werkraum 2.5.1 präzisiert mehrere persönliche KI-Begleiter im Ausbauplan (34 Pakete): Persönlichkeit, wählbares Dialogmodell, getrennte Erinnerungen, Stimme und unabhängig geprüfte Fähigkeiten. Keine Zusage echter Gefühle; neue Begleiter-/Telegramfunktionen sind noch nicht eingebaut.
 
 Werkraum 2.5.0 enthält einen sichtbaren KI-Ausbauplan mit 29 Arbeitspaketen, Themenfiltern, Zuständigkeiten, Beispielen und Export. Neue Team-, Figuren- und Gerätefunktionen sind noch geplant; keine automatischen Modell-/Geräteaktionen.
