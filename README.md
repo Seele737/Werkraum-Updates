@@ -8,6 +8,8 @@ Dieses öffentliche Repository verteilt geprüfte Werkraum-Versionen und signier
 
 ## In Werkraum verwenden
 
+Werkraum 2.5.0 enthält einen sichtbaren KI-Ausbauplan mit 29 Arbeitspaketen, Themenfiltern, Zuständigkeiten, Beispielen und Export. Neue Team-, Figuren- und Gerätefunktionen sind noch geplant; keine automatischen Modell-/Geräteaktionen.
+
 Werkraum 2.4.1 sichert manuelles und automatisches Vorlesen gemeinsam ab, verbessert lange Piper-Antworten und verwirft verspätete Erkennung nach Abbruch oder Textänderung.
 
 Werkraum 2.4.0 ergänzt drei gemeinsame Gesprächsarten in normalen Chats, Projekten und Rollenspielen. Lokale Spracheingabe mit prüfbarem Text und automatische Sprachausgabe sind unabhängig vom Chatmodell. Sechs getrennt herunterladbare Stimmen mit Hörprobe, Sprache, Größe und Lizenz; neu Eva, Ramona und Ryan (Englisch). Keine Mikrofonaufnahme und kein Stimmen-Download ohne bewusste Aktion. Mac-Erkennung benötigt whisper.cpp, Apple-Chip-Piper Rosetta; Handy-Mikrofone einen sicheren Browserkontext.
