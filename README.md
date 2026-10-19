@@ -8,6 +8,8 @@ Dieses öffentliche Repository verteilt geprüfte Werkraum-Versionen und signier
 
 ## In Werkraum verwenden
 
+Werkraum 2.10.0 ergänzt KIs vergleichen: dieselbe Frage an zwei bis vier lokale KI-Profile, getrennte Antworten mit Herkunft und gemeinsamem Stoppen. Keine Projekte, alten Gespräche, Werkzeuge, Cloud oder gegenseitige Weitergabe. Der gesamte Auftrag sperrt Programmupdates; Ergebnisse bleiben nur im offenen Fenster. Zusammenarbeit und moderierte Diskussionen sind weiterhin geplant.
+
 Werkraum 2.9.0 verbindet Begleiter ausdrücklich mit festen lokalen KI-Profilständen. Persönlichkeit und Gespräche bleiben erhalten. Die erste Übernahme sichert die alte Begleiterdatei und braucht anschließend auf allen verbundenen Geräten mindestens 2.9. Eingebaute Text-/Bildanfragen nutzen eine begrenzte gemeinsame Warteschlange; normales Gespräch und Projektassistent lassen sich stoppen. Teams, Erinnerungen und gemeinsame Audioplanung bleiben offen.
 
 Werkraum 2.8.0 ergänzt bis zu 32 benannte KI-Profile für sechs Anbieter mit ausdrücklichen Einzeltests. Normale KI-Auswahl unverändert; keine Projektinhalte, alten Verläufe oder Werkzeuge im Test. Cloud benötigt Bestätigung je Anfrage. Profile lokal unverschlüsselt, Schlüssel weiterhin separat. Weitere Gesprächszuordnung und Teams folgen. Mehrgeräte-Konfliktauflösung und Begleiter-Speicherreserve verbessert.
