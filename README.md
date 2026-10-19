@@ -8,6 +8,8 @@ Dieses öffentliche Repository verteilt geprüfte Werkraum-Versionen und signier
 
 ## In Werkraum verwenden
 
+Werkraum 2.9.0 verbindet Begleiter ausdrücklich mit festen lokalen KI-Profilständen. Persönlichkeit und Gespräche bleiben erhalten. Die erste Übernahme sichert die alte Begleiterdatei und braucht anschließend auf allen verbundenen Geräten mindestens 2.9. Eingebaute Text-/Bildanfragen nutzen eine begrenzte gemeinsame Warteschlange; normales Gespräch und Projektassistent lassen sich stoppen. Teams, Erinnerungen und gemeinsame Audioplanung bleiben offen.
+
 Werkraum 2.8.0 ergänzt bis zu 32 benannte KI-Profile für sechs Anbieter mit ausdrücklichen Einzeltests. Normale KI-Auswahl unverändert; keine Projektinhalte, alten Verläufe oder Werkzeuge im Test. Cloud benötigt Bestätigung je Anfrage. Profile lokal unverschlüsselt, Schlüssel weiterhin separat. Weitere Gesprächszuordnung und Teams folgen. Mehrgeräte-Konfliktauflösung und Begleiter-Speicherreserve verbessert.
 
 Werkraum 2.7.0 ergänzt Begleiterexport mit oder ohne Gespräche, geprüften Import als neue Kopie, fünf Persönlichkeitsvorlagen und acht DE/EN-Hilfethemen. Importierte Herkunft bleibt eine ungeprüfte Dateiangabe. Exporte sind unverschlüsselt; keine Modelle, Schlüssel oder Rechte werden übertragen.
