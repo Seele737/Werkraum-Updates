@@ -8,6 +8,8 @@ Dieses öffentliche Repository verteilt geprüfte Werkraum-Versionen und signier
 
 ## In Werkraum verwenden
 
+Werkraum 2.12.1 korrigiert nach unabhängiger Prüfung die Wartungssperre und einen Wettlauf beim Stoppen. Fertige Antworten bleiben auch bei verspäteter Abschlussübertragung erhalten; nach zehn Sekunden ohne Abschluss erscheint ein verständlicher Fehler.
+
 Werkraum 2.12.0 ergänzt Rollen-/Kontextvorschau und manuellen Markdownexport für lokale KI-Vergleiche. Frage, Profilstand, Antworten, gemeldete Herkunft und Teilfehler bleiben nachvollziehbar. Keine automatische Weitergabe oder GitHub-Sicherung; private Texte vor dem Teilen prüfen.
 
 Werkraum 2.11.0 zeigt den KI-Planfortschritt mit offener Formel und Bezugsgröße. Fertig zählt 1, teilweise pauschal 0,5; alle Pakete gleich. Aktuell ca. 16,2 Prozent Statusindex für 34 Pakete. Keine Restzeit- oder Aufwandsschätzung. Gesamtwert und Export bleiben unabhängig vom gewählten Filter; Nutzeraufgaben werden nicht verändert.
