@@ -8,7 +8,7 @@ Dieses öffentliche Repository verteilt geprüfte Werkraum-Versionen und signier
 
 ## In Werkraum verwenden
 
-Werkraum 2.13.0 bringt eine eigene Figuren- und Weltenbibliothek ins Rollenspiel: Einträge speichern, suchen, kopieren, archivieren und für neue Geschichten als Textkopien verwenden. Vorschau, Längengrenzen und Revisionsschutz; alte Geschichten bleiben unverändert. Keine automatische KI-Anfrage oder GitHub-Sicherung.
+Werkraum 2.14.0 ergänzt Geschichtenzweige ab jeder gespeicherten Nachricht, Suche/Sortierung sowie Figurentransfer mit Vorschau und editierbaren Vorlagen. Begrenzte Character-Card-V2-Konvertierung zeigt ausgelassene Felder; keine fremden Systemanweisungen oder Skripte. Werkraum 2.13.0 bringt eine eigene Figuren- und Weltenbibliothek ins Rollenspiel: Einträge speichern, suchen, kopieren, archivieren und für neue Geschichten als Textkopien verwenden. Vorschau, Längengrenzen und Revisionsschutz; alte Geschichten bleiben unverändert. Keine automatische KI-Anfrage oder GitHub-Sicherung.
 
 Werkraum 2.12.1 korrigiert nach unabhängiger Prüfung die Wartungssperre und einen Wettlauf beim Stoppen. Fertige Antworten bleiben auch bei verspäteter Abschlussübertragung erhalten; nach zehn Sekunden ohne Abschluss erscheint ein verständlicher Fehler.
 
