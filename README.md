@@ -8,6 +8,8 @@ Dieses öffentliche Repository verteilt geprüfte Werkraum-Versionen und signier
 
 ## In Werkraum verwenden
 
+Werkraum 2.17.0 ergänzt die lokale Erinnerungswerkstatt für Geschichten und Begleiter. Gespeichertes Wissen bleibt kontrollierbar und wird noch nicht an Modelle gesendet.
+
 Werkraum2.16.0 ergänzt eine genaue lokale Rollenspiel-Kontextvorschau vor Senden, Fortsetzen und Neuformulieren, mit sichtbaren Auslassungen und Geschichtenrevisionsschutz. Keine Modellanfrage beim Prüfen.
 
 Werkraum 2.15.0 ergänzt lokale KI-Teams: zwei bis vier Profile, eigene Rollen, ein bis drei Runden und optionale Moderation. Vorher Weitergabe prüfen, Antworten speichern, stoppen und später gezielt fortsetzen. Kontextbelege, Beispiele und Markdownbericht; kein Cloudwechsel, keine Projekt- oder Geräteaktionen. Teams liegen lokal unverschlüsselt.
