@@ -8,6 +8,8 @@ Dieses öffentliche Repository verteilt geprüfte Werkraum-Versionen und signier
 
 ## In Werkraum verwenden
 
+Werkraum 2.19.1 behebt nach unabhängiger Prüfung abgebrochene Wissenssicherungen und doppelte Stilblöcke bei Folgetext. Enthält den vollständigen2.19-Meilenstein mit50,0 Prozent Planstatus.
+
 Werkraum 2.19.0 erweitert das KI-Studio mit vier Arbeitsbereichen, Hilfeentwürfen, Gesprächsvorschlägen mit genauer Herkunft und Altdateisicherung, getrennten Stilen, Profiltransfer ohne Schlüssel und einem ausdrücklichen Sprachcheck. KI-Planstatus50,0 Prozent, keine Restzeitschätzung. Echte Geräteprüfungen bleiben offen. Alle Geräte eines gemeinsam genutzten Wissensordners brauchen nach der ersten Formatübernahme mindestens2.19.
 
 Werkraum 2.18.0 verbindet bestätigte Erinnerungen mit lokalen Geschichten und Begleitergesprächen. Dazu Modellbibliothek mit Favoriten und Metadatenvergleich, profilgebundene Verbindungsdiagnose sowie Audiozentrale und eigene Browser-Stimmen. Direkte Ausgabewahl nur bei Unterstützung; echte Bluetooth-/Mac-/iPhone-Prüfungen bleiben offen. KI-Planstatus 41,2 Prozent, keine Restzeitschätzung.
