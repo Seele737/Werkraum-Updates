@@ -8,6 +8,8 @@ Dieses öffentliche Repository verteilt geprüfte Werkraum-Versionen und signier
 
 ## In Werkraum verwenden
 
+Werkraum2.16.0 ergänzt eine genaue lokale Rollenspiel-Kontextvorschau vor Senden, Fortsetzen und Neuformulieren, mit sichtbaren Auslassungen und Geschichtenrevisionsschutz. Keine Modellanfrage beim Prüfen.
+
 Werkraum 2.15.0 ergänzt lokale KI-Teams: zwei bis vier Profile, eigene Rollen, ein bis drei Runden und optionale Moderation. Vorher Weitergabe prüfen, Antworten speichern, stoppen und später gezielt fortsetzen. Kontextbelege, Beispiele und Markdownbericht; kein Cloudwechsel, keine Projekt- oder Geräteaktionen. Teams liegen lokal unverschlüsselt.
 
 Werkraum 2.14.0 ergänzt Geschichtenzweige ab jeder gespeicherten Nachricht, Suche/Sortierung sowie Figurentransfer mit Vorschau und editierbaren Vorlagen. Begrenzte Character-Card-V2-Konvertierung zeigt ausgelassene Felder; keine fremden Systemanweisungen oder Skripte. Werkraum 2.13.0 bringt eine eigene Figuren- und Weltenbibliothek ins Rollenspiel: Einträge speichern, suchen, kopieren, archivieren und für neue Geschichten als Textkopien verwenden. Vorschau, Längengrenzen und Revisionsschutz; alte Geschichten bleiben unverändert. Keine automatische KI-Anfrage oder GitHub-Sicherung.
