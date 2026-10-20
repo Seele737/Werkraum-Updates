@@ -8,6 +8,8 @@ Dieses öffentliche Repository verteilt geprüfte Werkraum-Versionen und signier
 
 ## In Werkraum verwenden
 
+Werkraum 2.18.0 verbindet bestätigte Erinnerungen mit lokalen Geschichten und Begleitergesprächen. Dazu Modellbibliothek mit Favoriten und Metadatenvergleich, profilgebundene Verbindungsdiagnose sowie Audiozentrale und eigene Browser-Stimmen. Direkte Ausgabewahl nur bei Unterstützung; echte Bluetooth-/Mac-/iPhone-Prüfungen bleiben offen. KI-Planstatus 41,2 Prozent, keine Restzeitschätzung.
+
 Werkraum 2.17.0 ergänzt die lokale Erinnerungswerkstatt für Geschichten und Begleiter. Gespeichertes Wissen bleibt kontrollierbar und wird noch nicht an Modelle gesendet.
 
 Werkraum2.16.0 ergänzt eine genaue lokale Rollenspiel-Kontextvorschau vor Senden, Fortsetzen und Neuformulieren, mit sichtbaren Auslassungen und Geschichtenrevisionsschutz. Keine Modellanfrage beim Prüfen.
