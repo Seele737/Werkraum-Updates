@@ -1,39 +1,39 @@
 {
   "format": 1,
   "keyId": "werkraum-2026-1",
-  "generatedAt": "2026-10-24T06:00:31.145Z",
+  "generatedAt": "2026-10-25T08:55:46.853Z",
   "updates": [
     {
-      "version": "2.32.0",
+      "version": "2.33.0",
       "platform": "win32",
       "arch": "x64",
-      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v2.32.0/Werkraum-Update-2.32.0-code.wrup",
-      "size": 1782753,
-      "sha256": "1b86e232d429a6ac166e873bb7af5a52ace641c2597a10dffa13ab2ec47c1868",
+      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v2.33.0/Werkraum-Update-2.33.0-code.wrup",
+      "size": 1965133,
+      "sha256": "54c12ca094a8c10753b7b742992e0eb604841a8d4f0b9fe10977a3779c4a3794",
       "kind": "win-code",
       "minVersion": "0.14.1",
       "runtimeVersion": "44.4.5"
     },
     {
-      "version": "2.32.0",
+      "version": "2.33.0",
       "platform": "darwin",
       "arch": "arm64",
-      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v2.32.0/Werkraum-Update-2.32.0-mac-arm64.wrup",
-      "size": 2719175,
-      "sha256": "e45341b6a6fc580702a3a74e8860f4b53bb7cf2415036b5e8e5177ad7faecaa4",
+      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v2.33.0/Werkraum-Update-2.33.0-mac-arm64.wrup",
+      "size": 2904134,
+      "sha256": "7853d16a0b68c45aa4c9b55d113f2903f9086f2cce7932e4f13f61236991007f",
       "kind": "mac-build",
       "minVersion": "0.10.3"
     },
     {
-      "version": "2.32.0",
+      "version": "2.33.0",
       "platform": "darwin",
       "arch": "x64",
-      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v2.32.0/Werkraum-Update-2.32.0-mac-x64.wrup",
-      "size": 2719173,
-      "sha256": "ce589a6f59888993efdbe732e467fbc9320ce71072c7033d2170d079ebf24a6d",
+      "url": "https://github.com/Seele737/Werkraum-Updates/releases/download/v2.33.0/Werkraum-Update-2.33.0-mac-x64.wrup",
+      "size": 2904132,
+      "sha256": "a63d5b5ac77a6deae7c2a28051b24b027c184aa2a081ebfa6933adf835a70438",
       "kind": "mac-build",
       "minVersion": "0.10.3"
     }
   ],
-  "signature": "hkdv/xTTs9zm+JPcAT3YQpMvwgOzk/E+wtSSLsArC4Nkm0RLPFqUcW4MHS3ZTplk645udzYasjGMmTAGrTE+DA=="
+  "signature": "lFNswUfEdGnNxa5jR3TKdZBPyxnYNZvCr4cURIKtVQFTp36cmgAqRjeyz7MWm2XE9PU3RIUaO2VHp1MztUJ/AQ=="
 }
