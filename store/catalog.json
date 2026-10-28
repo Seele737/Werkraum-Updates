@@ -1,7 +1,7 @@
 {
   "format": 1,
   "keyId": "werkraum-2026-1",
-  "generatedAt": "2026-10-14T19:30:56.372Z",
+  "generatedAt": "2026-10-28T10:34:42.662Z",
   "packages": [
     {
       "id": "feeds",
@@ -916,6 +916,144 @@
           "file": "assets/stream-window/banner.svg",
           "size": 433,
           "sha256": "2d3f9c3d5a2c881628a4de7787b6725728a47cd21ac77c4eb9ab1ddc5a00942a"
+        }
+      }
+    },
+    {
+      "id": "telegram-adapter",
+      "version": "1.4.1",
+      "file": "packages/telegram-adapter-1.4.1.wrx",
+      "size": 10735,
+      "sha256": "3c80ebd11d2380bb15098dcf1f74e6a1d723aa0a6a8d292f1589bf8d4725d2e2",
+      "manifest": {
+        "schemaVersion": 2,
+        "id": "telegram-adapter",
+        "kind": "extension",
+        "name": "Telegram · KI, Rollenspiel & PC",
+        "version": "1.4.1",
+        "publisher": "Werkraum",
+        "summary": "Dein PC-Chat auch in Telegram: Begleiter, Rollenspiel, Sprache, Fotos, PDFs und ausgewählte PC-Aufträge. Mit verständlicher Verbindungshilfe.",
+        "description": "Verbinde deinen eigenen Telegram-Bot mit Werkraum: Die Anleitung führt von BotFather bis zur privaten Kopplung. Schreibe mit deinem KI-Begleiter im selben Gespräch wie am PC oder setze Rollenspiele fort. Wählbar sind lange Antworten, Schaltflächen, Arbeitsmeldungen, lokale Sprachein- und -ausgabe, Bildbeschreibungen und PDF-Zusammenfassungen. /ki zeigt Modell und Fähigkeiten, /menue die Befehle. Bis zu fünf am PC ausgewählte installierte lokale Profile können mit Vorschau und Bestätigungscode für die Telegram-Sitzung gewechselt werden. Eigene Modellzuordnungen für Programmieren, Analysen und Rollenspiel sind optional automatisch nutzbar. Persönlichkeit, Verlauf und PC-Einstellungen bleiben erhalten. Ausgewählte PC-Aufträge benötigen genaue Vorschau und Einmalbestätigung. Ein gesondert gewählter Windows-Monitor kann auf /bild oder bei PC-Rückfragen gesendet werden. Du bestimmst Dauer, Budget und jede Freigabe. Werkraum bleibt geöffnet; das Token bleibt nur im Arbeitsspeicher. Installation allein verbindet nichts.",
+        "category": "ki",
+        "tone": "assistant",
+        "glyph": "chat",
+        "featured": false,
+        "stage": "stable",
+        "highlights": [
+          "Einrichtung von BotFather bis zur privaten Kopplung direkt im Store",
+          "Dasselbe Begleitergespräch am PC und in Telegram fortführen",
+          "Rollenspiel direkt fortsetzen oder einen eigenen Handlungszweig wählen",
+          "Aktive KI anzeigen, freigegebene Sitzungsmodelle wechseln und eigene Modellzuordnungen verwenden",
+          "Sprachnachrichten lokal erkennen und mit ausgewählter lokaler Stimme antworten",
+          "Fotos/Screenshots beschreiben und PDF-Text lokal zusammenfassen",
+          "Natürliche PC-Aufträge mit Vorschau, Bestätigung und optionalen Desktopbildern",
+          "Dauer, Budget und /stop; kein automatischer Start nach einem Neustart"
+        ],
+        "permissions": [
+          {
+            "icon": "globe",
+            "text": "Der bestehende Telegram-Kanal verbindet sich nach deiner Einrichtung mit der offiziellen Telegram-Bot-API."
+          },
+          {
+            "icon": "chat",
+            "text": "Private Texte und separat gewählte Sprach-, Bild- und PDF-Nachrichten. Antworten nach Einzelbestätigung oder begrenzter Freigabe. Medien und Rollenspiel erteilen keine Aktionsrechte."
+          },
+          {
+            "icon": "shield",
+            "text": "Token im RAM. Telegram verarbeitet Nachrichten und Audio/Bilder. Erkannter Text und Zusammenfassungen bleiben lokal; Rohanhänge werden verworfen. PC-Aufträge/Monitorbilder brauchen eigene Freigaben."
+          }
+        ],
+        "requirements": [
+          "Telegram-Konto, eigener Bot von BotFather, Internet; Werkraum geöffnet",
+          "Begleiter/Geschichte mit festem lokalem KI-Profil; Einrichtung am PC; Token nach Neustart erneut eingeben",
+          "PC-Aufträge vorher lokal freigeben und Ziel binden; Desktopbilder nur bei entsperrtem Windows-Desktop",
+          "Private Nachrichten des gekoppelten Absenders; keine Gruppen oder Weiterleitungen",
+          "Sprache optional: Whisper/Piper unter KI → Sprache und ffmpeg im Downloader einrichten",
+          "Bilder/PDFs optional: installiertes lokales Modell wählen; für Bilder zusätzlich Bildverständnis"
+        ],
+        "platforms": [
+          "win32",
+          "darwin"
+        ],
+        "license": "Teil von Werkraum; keine offizielle Telegram-Erweiterung",
+        "sourceUrl": "https://core.telegram.org/bots/features",
+        "changelog": [
+          {
+            "version": "1.4.1",
+            "date": "2026-10-28",
+            "notes": [
+              "Modellsteuerung setzt Werkraum 2.37 voraus; ältere Store-Pakete bleiben unverändert."
+            ]
+          },
+          {
+            "version": "1.4.0",
+            "date": "2026-10-28",
+            "notes": [
+              "KI-Anzeige und Befehlsmenü, am PC freigegebene Sitzungsmodelle mit Bestätigungscode, Modellvorschläge und optionale eigene automatische Zuordnung."
+            ]
+          },
+          {
+            "version": "1.3.0",
+            "date": "2026-10-28",
+            "notes": [
+              "Lokale Spracheingabe, wählbare Sprachantworten, lokale Bildbeschreibung und PDF-Zusammenfassung mit eigenen Freigaben und klaren Grenzen."
+            ]
+          },
+          {
+            "version": "1.2.0",
+            "date": "2026-10-28",
+            "notes": [
+              "Gemeinsamer PC-/Telegram-Chat, Rollenspiel-Fortsetzung und Zweige, lange Antworten, Schaltflächen, Status und natürliche PC-Aufträge zu freigegebenen Aufgaben."
+            ]
+          },
+          {
+            "version": "1.1.0",
+            "date": "2026-10-28",
+            "notes": [
+              "Rollenspiel-Modus mit eigener Geschichte, ausgewählte bestätigte PC-Aufträge und separat freigegebene Desktopbilder. Anleitung mit Befehlen und Grenzen erweitert."
+            ]
+          },
+          {
+            "version": "1.0.0",
+            "date": "2026-10-28",
+            "notes": [
+              "Telegram als auswählbarer Store-Adapter mit direkter Einrichtung und verständlicher Verbindungshilfe."
+            ]
+          }
+        ],
+        "icon": "icon.svg",
+        "banner": "banner.svg",
+        "api": 1,
+        "engine": "engine.mjs",
+        "ui": "ui.mjs",
+        "styles": null,
+        "tabs": [
+          {
+            "id": "telegram-adapter",
+            "label": "Telegram",
+            "glyph": "chat"
+          }
+        ],
+        "minAppVersion": "2.37.0",
+        "routes": [
+          "telegram-adapter"
+        ],
+        "runtimeDownloadEstimate": {
+          "win32": 0,
+          "darwin": 0,
+          "linux": 0
+        }
+      },
+      "assets": {
+        "icon": {
+          "file": "assets/telegram-adapter/icon.svg",
+          "size": 254,
+          "sha256": "c050998092a5cdbd6242a4146ab93b7b5f02a6e48d5da4ac6f2b6aeb2e5c4c93"
+        },
+        "banner": {
+          "file": "assets/telegram-adapter/banner.svg",
+          "size": 669,
+          "sha256": "3a229b2393adcde3c72e0ff69e6d270472f1540edfd6ad800187ea199d30625a"
         }
       }
     },
@@ -1922,5 +2060,5 @@
       }
     }
   ],
-  "signature": "bcougAOzMEuQCKd4Avqobmg/pqZgOgqplNB9DvKXxmyQBLU4qt2GNDOlG2h3TIF1p4HhHhhUp+D2+TibyxbqCA=="
+  "signature": "Xr9YbgULPDV0LA9075uCdWfTHvE8Ibe6HHb1ajR0quxOd5y3/u4tOrRzbkpIBAojugMD/kdqi7/ySN5/QM6DAA=="
 }
