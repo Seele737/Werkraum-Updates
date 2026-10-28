@@ -1,7 +1,7 @@
 {
   "format": 1,
   "keyId": "werkraum-2026-1",
-  "generatedAt": "2026-10-28T10:34:42.662Z",
+  "generatedAt": "2026-10-28T20:06:11.743Z",
   "packages": [
     {
       "id": "feeds",
@@ -921,19 +921,19 @@
     },
     {
       "id": "telegram-adapter",
-      "version": "1.4.1",
-      "file": "packages/telegram-adapter-1.4.1.wrx",
-      "size": 10735,
-      "sha256": "3c80ebd11d2380bb15098dcf1f74e6a1d723aa0a6a8d292f1589bf8d4725d2e2",
+      "version": "1.4.2",
+      "file": "packages/telegram-adapter-1.4.2.wrx",
+      "size": 9555,
+      "sha256": "17d9aa6f26ed9ea75fe139941acd65930acefd0450743823b8937285c3c60c8f",
       "manifest": {
         "schemaVersion": 2,
         "id": "telegram-adapter",
         "kind": "extension",
         "name": "Telegram · KI, Rollenspiel & PC",
-        "version": "1.4.1",
+        "version": "1.4.2",
         "publisher": "Werkraum",
         "summary": "Dein PC-Chat auch in Telegram: Begleiter, Rollenspiel, Sprache, Fotos, PDFs und ausgewählte PC-Aufträge. Mit verständlicher Verbindungshilfe.",
-        "description": "Verbinde deinen eigenen Telegram-Bot mit Werkraum: Die Anleitung führt von BotFather bis zur privaten Kopplung. Schreibe mit deinem KI-Begleiter im selben Gespräch wie am PC oder setze Rollenspiele fort. Wählbar sind lange Antworten, Schaltflächen, Arbeitsmeldungen, lokale Sprachein- und -ausgabe, Bildbeschreibungen und PDF-Zusammenfassungen. /ki zeigt Modell und Fähigkeiten, /menue die Befehle. Bis zu fünf am PC ausgewählte installierte lokale Profile können mit Vorschau und Bestätigungscode für die Telegram-Sitzung gewechselt werden. Eigene Modellzuordnungen für Programmieren, Analysen und Rollenspiel sind optional automatisch nutzbar. Persönlichkeit, Verlauf und PC-Einstellungen bleiben erhalten. Ausgewählte PC-Aufträge benötigen genaue Vorschau und Einmalbestätigung. Ein gesondert gewählter Windows-Monitor kann auf /bild oder bei PC-Rückfragen gesendet werden. Du bestimmst Dauer, Budget und jede Freigabe. Werkraum bleibt geöffnet; das Token bleibt nur im Arbeitsspeicher. Installation allein verbindet nichts.",
+        "description": "Schreib deinem eigenen Telegram-Bot, und deine KI in Werkraum antwortet: als Begleiter, im Rollenspiel oder im selben Gespräch wie am PC. Ein Assistent führt von BotFather bis zur privaten Kopplung. Danach wählst du, wie lange und wie oft die KI antworten darf, und schaltest Extras wie Sprachnachrichten, gesprochene Antworten, Fotos, PDFs, Modellwechsel, ausgewählte PC-Aufträge oder Desktopbilder einzeln frei. Werkraum bleibt geöffnet, das Token bleibt nur im Arbeitsspeicher, und die Installation allein verbindet nichts.",
         "category": "ki",
         "tone": "assistant",
         "glyph": "chat",
@@ -978,6 +978,13 @@
         "license": "Teil von Werkraum; keine offizielle Telegram-Erweiterung",
         "sourceUrl": "https://core.telegram.org/bots/features",
         "changelog": [
+          {
+            "version": "1.4.2",
+            "date": "2026-10-28",
+            "notes": [
+              "Übersichtlichere Seite: kurzer Einstieg in drei Schritten, Bereiche Verbinden, KI-Chat und Nachrichten, Extras und Erklärungen zum Aufklappen."
+            ]
+          },
           {
             "version": "1.4.1",
             "date": "2026-10-28",
@@ -1026,7 +1033,7 @@
         "api": 1,
         "engine": "engine.mjs",
         "ui": "ui.mjs",
-        "styles": null,
+        "styles": "ui.css",
         "tabs": [
           {
             "id": "telegram-adapter",
@@ -2060,5 +2067,5 @@
       }
     }
   ],
-  "signature": "Xr9YbgULPDV0LA9075uCdWfTHvE8Ibe6HHb1ajR0quxOd5y3/u4tOrRzbkpIBAojugMD/kdqi7/ySN5/QM6DAA=="
+  "signature": "vrC7EYacijgpUIDbRqE3sI2nIh1A8Ga0GNL94ahqJ/VKyFLnhuDUk3vfjOv2t2uorA8F0f4PsWdRgxkuCDUeBQ=="
 }
