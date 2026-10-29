@@ -1,7 +1,7 @@
 {
   "format": 1,
   "keyId": "werkraum-2026-1",
-  "generatedAt": "2026-10-28T20:06:11.743Z",
+  "generatedAt": "2026-10-29T19:10:33.928Z",
   "packages": [
     {
       "id": "feeds",
@@ -921,16 +921,16 @@
     },
     {
       "id": "telegram-adapter",
-      "version": "1.4.2",
-      "file": "packages/telegram-adapter-1.4.2.wrx",
-      "size": 9555,
-      "sha256": "17d9aa6f26ed9ea75fe139941acd65930acefd0450743823b8937285c3c60c8f",
+      "version": "1.5.0",
+      "file": "packages/telegram-adapter-1.5.0.wrx",
+      "size": 9634,
+      "sha256": "45c209a0e2ac3ebe3a349d1ebbb7708d18c9a9e89b763b660912aa31bf9da98b",
       "manifest": {
         "schemaVersion": 2,
         "id": "telegram-adapter",
         "kind": "extension",
         "name": "Telegram · KI, Rollenspiel & PC",
-        "version": "1.4.2",
+        "version": "1.5.0",
         "publisher": "Werkraum",
         "summary": "Dein PC-Chat auch in Telegram: Begleiter, Rollenspiel, Sprache, Fotos, PDFs und ausgewählte PC-Aufträge. Mit verständlicher Verbindungshilfe.",
         "description": "Schreib deinem eigenen Telegram-Bot, und deine KI in Werkraum antwortet: als Begleiter, im Rollenspiel oder im selben Gespräch wie am PC. Ein Assistent führt von BotFather bis zur privaten Kopplung. Danach wählst du, wie lange und wie oft die KI antworten darf, und schaltest Extras wie Sprachnachrichten, gesprochene Antworten, Fotos, PDFs, Modellwechsel, ausgewählte PC-Aufträge oder Desktopbilder einzeln frei. Werkraum bleibt geöffnet, das Token bleibt nur im Arbeitsspeicher, und die Installation allein verbindet nichts.",
@@ -960,16 +960,16 @@
           },
           {
             "icon": "shield",
-            "text": "Token im RAM. Telegram verarbeitet Nachrichten und Audio/Bilder. Erkannter Text und Zusammenfassungen bleiben lokal; Rohanhänge werden verworfen. PC-Aufträge/Monitorbilder brauchen eigene Freigaben."
+            "text": "Token im RAM. Telegram und das ausdrücklich gewählte KI-Profil verarbeiten freigegebene Daten. Werkraum speichert Beschreibungen, verwirft Rohanhänge. PC-Aufträge brauchen eigene Freigaben."
           }
         ],
         "requirements": [
           "Telegram-Konto, eigener Bot von BotFather, Internet; Werkraum geöffnet",
-          "Begleiter/Geschichte mit festem lokalem KI-Profil; Einrichtung am PC; Token nach Neustart erneut eingeben",
+          "Begleiter/Geschichte mit festem lokalem KI-Profil oder ausdrücklich ausgewähltes externes Textprofil; Einrichtung am PC; Token nach Neustart erneut eingeben",
           "PC-Aufträge vorher lokal freigeben und Ziel binden; Desktopbilder nur bei entsperrtem Windows-Desktop",
           "Private Nachrichten des gekoppelten Absenders; keine Gruppen oder Weiterleitungen",
           "Sprache optional: Whisper/Piper unter KI → Sprache und ffmpeg im Downloader einrichten",
-          "Bilder/PDFs optional: installiertes lokales Modell wählen; für Bilder zusätzlich Bildverständnis"
+          "Bilder: bewusst gewähltes lokales Bildmodell oder eigenes Heimnetzprofil, Bildfähigkeit beachten. PDFs: installiertes lokales Textmodell."
         ],
         "platforms": [
           "win32",
@@ -978,6 +978,13 @@
         "license": "Teil von Werkraum; keine offizielle Telegram-Erweiterung",
         "sourceUrl": "https://core.telegram.org/bots/features",
         "changelog": [
+          {
+            "version": "1.5.0",
+            "date": "2026-10-29",
+            "notes": [
+              "Begrenzte externe Textsitzungen und gemeinsame bewusste lokale/Heimnetz-Bildauswahl aus Werkraum 2.39.0. Genaue Zielvorschau, Daten- und Sitzungsgrenzen; ältere Pakete bleiben unverändert."
+            ]
+          },
           {
             "version": "1.4.2",
             "date": "2026-10-28",
@@ -1041,7 +1048,7 @@
             "glyph": "chat"
           }
         ],
-        "minAppVersion": "2.37.0",
+        "minAppVersion": "2.39.0",
         "routes": [
           "telegram-adapter"
         ],
@@ -2067,5 +2074,5 @@
       }
     }
   ],
-  "signature": "vrC7EYacijgpUIDbRqE3sI2nIh1A8Ga0GNL94ahqJ/VKyFLnhuDUk3vfjOv2t2uorA8F0f4PsWdRgxkuCDUeBQ=="
+  "signature": "HFGM6AxCf4IQAX946hmuAlUNwKsGT+pMC276UEgRK27yEB/SaTbdHCViyB0hP6dO+vq0U53xTD/a8bkT22oXDg=="
 }
